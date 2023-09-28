@@ -25,7 +25,7 @@ function Offer() {
 
                     <a className='learnLink'>Podívejte se, jak to všechno jde dohromady</a>
                 </div>
-                <div className='rightBg'> <img src={map} alt="station_scheme" /></div>
+                <div className='rightBg'> <img className="map" src={map} alt="station_scheme" /></div>
 
             </div>
 

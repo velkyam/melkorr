@@ -26,7 +26,8 @@ function Hero() {
                         </video>
                     </div>
                 </div>
-                <div className='thirdText'>Platforma MelkorVisum nám umožňuje rychle a efektivně vyvíjet vysoce přizpůsobitelné, spolehlivé systémy k vizualizaci dopravních, průmyslových či energetických provozů.
+                
+                <div className='thirdText'><h2 className='thirdTextTitle'>MelkorVisum</h2>Platforma MelkorVisum nám umožňuje rychle a efektivně vyvíjet vysoce přizpůsobitelné, spolehlivé systémy k vizualizaci dopravních, průmyslových či energetických provozů.
                 </div>
                 <div className='gridContainer'>
                     <div className='card1'>
