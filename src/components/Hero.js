@@ -23,6 +23,7 @@ function Hero() {
                         <video width="100%" loop autoPlay muted playsinline className='bgVideo'>
                             <source src={video} type="video/mp4" />
                             <source src={video} type="video/ogg" />
+                            <p>Your browser doesn't support HTML video. Here is a</p>
                         </video>
                     </div>
                 </div>
