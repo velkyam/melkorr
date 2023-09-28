@@ -381,17 +381,21 @@ box-shadow: 2px 2px 10px #e7ebf3;
     width: 90%;
     max-width: none;
   }
+  .thirdTextTitle{
+    display: flex;
+    justify-content: center;
+  }
   .thirdText{
     margin: 100px 0px 0px;
     max-width: 90%;
-    text-align: center;
+    text-align: left;
     font-size: 16px;
   }
 
   .howContainer{
     justify-content: center;
     align-items: center;
-    padding: 60px 0px;
+    padding: 60px 0px 110px;
     margin: 0 auto;
   }
   .howTextContainer{
