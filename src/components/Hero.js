@@ -20,7 +20,7 @@ function Hero() {
                         <button type="button" class="btn btn-primary btn-lg learnButton">Kontaktujte Nás</button>
                     </div>
                     <div className='videoContainer'>
-                        <video width="100%" loop autoPlay muted playsinline className='bgVideo'>
+                        <video width="100%" loop autoPlay muted playsinline controls className='bgVideo'>
                             <source src={video} type="video/mp4" />
                             <source src={video} type="video/ogg" />
                             <p>Your browser doesn't support HTML video. Here is a</p>

@@ -425,10 +425,11 @@ box-shadow: 2px 2px 10px #e7ebf3;
     width: 90%;
     margin: 10px auto;
     padding: 20px;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .gridIcon{
-    margin-right: 30px;
+    margin-right: 50px;
+    width: 40px;
   }
   .footerContainer{
     flex-direction: column;
