@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 60px;
+  min-height: 60px;
   width: 100%;
   background-color: gray;
 }
@@ -19,6 +19,7 @@
   font-weight: 500;
   font-size: 14px;
   margin: 0 auto;
+  padding: 10px;
 }
 /* Navigation */
 .navbar{
@@ -355,7 +356,7 @@ box-shadow: 2px 2px 10px #e7ebf3;
 
 @media only screen and (max-width: 992px) {
   .messageBar{
-    max-width: 80%;
+
   }
   .topNav{
     width: 90%;
@@ -367,7 +368,7 @@ box-shadow: 2px 2px 10px #e7ebf3;
   }
   .heroContainer {
     flex-direction: column-reverse;
-    padding: 115px 0px 0px;
+    padding: 30px 0px 0px;
 
   }
   .gridContainer{

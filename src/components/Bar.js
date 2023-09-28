@@ -6,7 +6,7 @@ function Bar() {
 
 
 <div class="Bar">
-<p className='messageBar'>Modernizace průmyslových a energetických systémů správně provedená a navždy usnadněná.</p>
+<p className='messageBar'>Modernizace komplexních systémů správně provedená a navždy usnadněná.</p>
 </div>
 
   
