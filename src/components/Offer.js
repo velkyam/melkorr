@@ -29,7 +29,7 @@ function Offer() {
 
             </div>
 
-            <div className='howTitle offerTitle'>Co nabízíme naším klientům</div>
+            <div className='howTitle offerTitle'>Co nabízíme našim klientům</div>
             <div className='offerText'>Ať už jste organizace veřejné dopravy, soukromý přepravce nebo velká korporace, Melkor poskytuje řešení na míru k vaším potřebám.</div>
 
             <div class="heroWidth">
