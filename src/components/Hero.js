@@ -1,5 +1,6 @@
 import React from 'react';
 import video from './assets/images/Untitled.mp4'
+import video2 from './assets/images/Untitled.webm'
 import card1 from '../components/assets/images/card1.svg'
 import card2 from '../components/assets/images/card2.svg'
 import card3 from '../components/assets/images/card3.svg'
@@ -20,9 +21,9 @@ function Hero() {
                         <button type="button" class="btn btn-primary btn-lg learnButton">Kontaktujte Nás</button>
                     </div>
                     <div className='videoContainer'>
-                        <video width="100%" loop autoPlay muted playsinline controls className='bgVideo'>
+                        <video width="100%" loop autoPlay muted playsInline className='bgVideo'>
+                            <source src={video2} type="video/webm" />
                             <source src={video} type="video/mp4" />
-                            <source src={video} type="video/ogg" />
                             <p>Your browser doesn't support HTML video. Here is a</p>
                         </video>
                     </div>
