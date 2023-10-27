@@ -1,5 +1,6 @@
 import React from 'react';
 import navLogo from '../components/assets/images/logo6.png'
+import { Link } from 'react-router-dom';
 
 function Nav() {
 
@@ -8,10 +9,10 @@ function Nav() {
 
 <nav class="navbar navbar-expand-lg fixed-top  bg-white">
     <div class="topNav">
-        <a class="navbar-brand logoContainer" href="#">
+    <Link to="/" class="navbar-brand logoContainer" >
             <img className="navLogo" src={navLogo} alt="melkor_logo"/>
             <h1 class="logoTitle">Melkor</h1>
-        </a>
+        </Link>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,13 +23,13 @@ function Nav() {
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 align-items-center">
                 <li class="nav-item">
-                    <a class="nav-link navPage" href="#">O Nás</a>
+                    <Link class="nav-link navPage" to="/onas">O Nás</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navPage" href="#">MelkorVisum</a>
+                    <Link class="nav-link navPage" to='/reference'>Reference</Link>
                 </li>
                 <li class="nav-item">
-                        <button type="button" class="btn btn-primary btn-lg learnButton">Kontaktujte Nás</button>
+                        <button type="button" class="btn btn-primary btn-lg learnButton" ><Link className='nodecor' to='/melkorvisum'>MelkorVisum</Link></button>
                 </li>
                 </ul>
             </div>

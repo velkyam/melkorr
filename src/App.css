@@ -2,6 +2,13 @@
   --topNavColor:white;
 
 }
+a{
+  cursor: pointer;
+}
+.nodecor{
+  text-decoration: none;
+  color: currentColor;
+}
 /* Message */
 .Bar{
   background-image: linear-gradient(135deg, #009ad9, #005baa 28%, #5a2d76 95%);

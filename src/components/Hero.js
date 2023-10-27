@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import video from './assets/images/Untitled.mp4'
 import video2 from './assets/images/Untitled.webm'
 import card1 from '../components/assets/images/card1.svg'
@@ -18,7 +19,7 @@ function Hero() {
                         <div className='heroSubtitle'>
                             MelkorVisum je moderní integrovaná platforma plně přizpůsobitelná pro nespočet použití.
                         </div>
-                        <button type="button" class="btn btn-primary btn-lg learnButton">Kontaktujte Nás</button>
+                        <button type="button" class="btn btn-primary btn-lg learnButton"><Link className='nodecor' to='/melkorvisum'>MelkorVisum</Link></button>
                     </div>
                     <div className='videoContainer'>
                         <video width="100%" loop autoPlay muted playsInline className='bgVideo'>
@@ -35,17 +36,17 @@ function Hero() {
                     <div className='card1'>
                         <div className='cardTitle'>Kompletní softwarová řešení na klíč</div>
                         <img className="cardIcon" src={card1} alt="software" />
-                        <a className='learnLink'>Více o MelkorVisu</a>
+                        <Link to='/melkorvisum' className='learnLink'>Více o MelkorVisu</Link>
                     </div>
                     <div className='card2'>
                         <div className='cardTitle'>Integrace se stávajícími technologiemi</div>
                         <img className="cardIcon" src={card2} alt="control_panel" />
-                        <a className='learnLink'>Více o MelkorVisu</a>
+                        <Link to='/melkorvisum' className='learnLink'>Více o MelkorVisu</Link>
                     </div>
                     <div className='card3'>
                         <div className='cardTitle'>Moderní vzhled přizpůsobený na míru</div>
                         <img className="cardIcon" src={card3} alt="computer" />
-                        <a className='learnLink'>Více o MelkorVisu</a>
+                        <Link to='/melkorvisum' className='learnLink'>Více o MelkorVisu</Link>
                     </div>
                 </div>
             </div>
