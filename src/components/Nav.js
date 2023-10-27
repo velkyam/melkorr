@@ -23,13 +23,16 @@ function Nav() {
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 align-items-center">
                 <li class="nav-item">
+                    <Link class="nav-link navPage" to='/melkorvisum'>MelkorVisum</Link>
+                </li>
+                <li class="nav-item">
                     <Link class="nav-link navPage" to="/onas">O Nás</Link>
                 </li>
                 <li class="nav-item">
                     <Link class="nav-link navPage" to='/reference'>Reference</Link>
                 </li>
                 <li class="nav-item">
-                        <button type="button" class="btn btn-primary btn-lg learnButton" ><Link className='nodecor' to='/melkorvisum'>MelkorVisum</Link></button>
+                        <button type="button" class="btn btn-primary btn-lg learnButton" ><Link onClick={() => window.location.reload()} className='nodecor' to='/kontakt'>Kontaktujte Nás</Link></button>
                 </li>
                 </ul>
             </div>

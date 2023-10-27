@@ -1,5 +1,6 @@
 import React from 'react';
 import navLogo from '../components/assets/images/logo6.png'
+import { Link } from 'react-router-dom';
 
 function Footer() {
 
@@ -26,10 +27,10 @@ function Footer() {
                         <a  href="https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1163732&typ=PLATNY" target="blank" className='learnLink underline'>Veřejný rejstřík</a>
                     </div>
                 </div>
-                    <a class="navbar-brand logoContainer" href="#">
+                    <Link class="navbar-brand logoContainer" to="/">
                         <img className="navLogo" src={navLogo} alt="melkor_logo" />
                         <h1 class="logoTitle">Melkor</h1>
-                    </a>
+                    </Link>
                 </div>
                 <div className='copyright'>Copyright © 2023 Melkor Software. Všechna práva vyhrazena.</div>
             </div>

@@ -463,6 +463,13 @@ box-shadow: 2px 2px 10px #e7ebf3;
     margin-right: 50px;
     width: 40px;
   }
+  /* Contact Form */
+  .contactForm{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+  }
+  /* Footer */
   .footerContainer{
     flex-direction: column;
 

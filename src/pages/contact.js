@@ -2,16 +2,18 @@ import React from "react";
 import '../App.css';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import Contact from '../components/ContactForm';
 
 
-function Contact() {
+function ContactPage() {
     return (
       <div className="App">
         <Nav/>
+        <Contact/>
         <Footer/>
       </div>
     );
   }
   
-  export default Contact;
+  export default ContactPage;
   

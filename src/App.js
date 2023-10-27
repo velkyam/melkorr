@@ -1,9 +1,4 @@
 import './App.css';
-import Nav from './components/Nav';
-import Hero from './components/Hero';
-import Footer from './components/Footer';
-import Offer from './components/Offer';
-import Bar from './components/Bar';
 
 import { BrowserRouter as Router, Routes, Route }
     from 'react-router-dom';
