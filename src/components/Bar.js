@@ -5,7 +5,7 @@ function Bar() {
     return (
 
 
-<div class="Bar">
+<div className="Bar">
 <p className='messageBar'>Modernizace komplexních systémů správně provedená a navždy usnadněná.</p>
 </div>
 

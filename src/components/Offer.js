@@ -33,38 +33,38 @@ function Offer() {
             <div className='howTitle offerTitle'>Co nabízíme našim klientům</div>
             <div className='offerText'>Ať už jste organizace veřejné dopravy, soukromý přepravce nebo velká korporace, Melkor poskytuje řešení na míru k vaším potřebám.</div>
 
-            <div class="heroWidth">
+            <div className="heroWidth">
 
-                <div class="featureGrid">
-                    <Link class="nodecor gridItem" to='/melkorvisum'>
+                <div className="featureGrid">
+                    <Link className="nodecor gridItem" to='/melkorvisum'>
                         <img className='gridIcon' src={reseni} alt="reseni_icon" />
                         <div className='gridText'>Řešení otestované v praxi</div>
                     </Link>
-                    <Link class="nodecor gridItem" to='/melkorvisum'>
+                    <Link className="nodecor gridItem" to='/melkorvisum'>
                         <img className='gridIcon' src={scale} alt="scale_icon" />
                         <div className='gridText'>Škálovatelná architektura</div>
                     </Link>
-                    <Link class="nodecor gridItem" to='/melkorvisum'>
+                    <Link className="nodecor gridItem" to='/melkorvisum'>
                         <img className='gridIcon' src={support} alt="support_icon" />
                         <div className='gridText'>Uživatelská podpora 24/7</div>
                     </Link>
-                    <Link class="nodecor gridItem" to='/melkorvisum'>
+                    <Link className="nodecor gridItem" to='/melkorvisum'>
                         <img className='gridIcon' src={spolehlivost} alt="spolehlivost_icon" />
                         <div className='gridText'>Vysoká spolehlivost</div>
                     </Link>
-                    <Link class="nodecor gridItem" to='/melkorvisum'>
+                    <Link className="nodecor gridItem" to='/melkorvisum'>
                         <img className='gridIcon' src={os} alt="OS_icon" />
                         <div className='gridText'>Nezávislost na OS/HW</div>
                     </Link>
-                    <Link class="nodecor gridItem" to='/melkorvisum'>
+                    <Link className="nodecor gridItem" to='/melkorvisum'>
                         <img className='gridIcon' src={sifr} alt="security_icon" />
                         <div className='gridText'>Šifrovaná komunikace</div>
                     </Link>
-                    <Link class="nodecor gridItem" to='/melkorvisum'>
+                    <Link className="nodecor gridItem" to='/melkorvisum'>
                         <img className='gridIcon' src={zobrazeni} alt="zobrazeni_icon" />
                         <div className='gridText'>Přehledné zobrazení</div>
                     </Link>
-                    <Link class="nodecor gridItem" to='/melkorvisum'>
+                    <Link className="nodecor gridItem" to='/melkorvisum'>
                         <img className='gridIcon' src={protokol} alt="protocol_icon" />
                         <div className='gridText'>Podpora protokolů</div>
                     </Link>

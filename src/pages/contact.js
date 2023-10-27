@@ -4,10 +4,9 @@ import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import Contact from '../components/ContactForm';
 
-
 function ContactPage() {
     return (
-      <div className="App">
+      <div>
         <Nav/>
         <Contact/>
         <Footer/>

@@ -7,19 +7,21 @@ import card2 from '../components/assets/images/card2.svg'
 import card3 from '../components/assets/images/card3.svg'
 
 function Hero() {
-
     return (
 
         <div className='hero'>
             <div className='heroWidth'>
                 <div className="heroContainer">
                     <div className='heroTextContainer'>
-                        <h1 className='heroTitle'>Spolehlivé řešení pro komplexní systémy.
+                    
+                        <h1 className='heroTitle'>
+                        Efektivní řešení pro industriální
+                        systémy.
                         </h1>
                         <div className='heroSubtitle'>
-                            MelkorVisum je moderní integrovaná platforma plně přizpůsobitelná pro nespočet použití.
+                            MelkorVisum je moderní integrovaná platforma plně přizpůsobitelná pro jakýkoli komplexní systémy.
                         </div>
-                        <Link className='nodecor' to='/melkorvisum'> <button type="button" class="btn btn-primary btn-lg learnButton">MelkorVisum</button></Link>
+                        <Link className='nodecor' to='/melkorvisum'> <button type="button" className="btn btn-primary btn-lg learnButton">MelkorVisum</button></Link>
                     </div>
                     <div className='videoContainer'>
                         <video width="100%" loop autoPlay muted playsInline className='bgVideo'>
