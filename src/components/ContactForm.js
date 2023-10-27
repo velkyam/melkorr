@@ -8,15 +8,21 @@ function ContactForm() {
       return <p>Děkujeme za dotaz. Brzy se vám ozveme!</p>;
   }
   return (
-    <div class="contactForm">
+    <div className='hero'>
+    <div className='heroWidth'>
+        <div className="heroContainer">
+    
+    <form onSubmit={handleSubmit}>
 
-      <form onSubmit={handleSubmit} class="mb-3" >
         <label for="full-name">Vaše jméno</label>
-    <input class="form-control" type="text" name="name" id="full-name" placeholder="Karel Novák" required></input>
+    <input type="text" name="name" id="full-name" placeholder="Karel Novák" required></input>
+
+
+
       <label htmlFor="email">
       Váš e-mail
       </label>
-      <input class="form-control"
+      <input
         id="email"
         type="email" 
         name="email"
@@ -28,24 +34,30 @@ function ContactForm() {
         field="email"
         errors={state.errors}
         />
+
+
+
       <label>S čím vám můžeme potřebujete pomoci?</label>
       <textarea
-        class="form-control"
-        id="message"
-        name="message"
-        placeholder="Rád bych se dozvěděl více o MelkorVisu, ale nevím kde začít."
-        required
-        />
+ 
+ id="message"
+ name="message"
+ placeholder="Rád bych se dozvěděl více o MelkorVisu, ale nevím kde začít."
+ required
+ />
       <ValidationError 
         prefix="Message" 
         field="message"
         errors={state.errors}
         />
+
       <button type="submit" disabled={state.submitting}>
         Odeslat
       </button>
     </form>
-        </div>
+    </div>
+    </div>
+    </div>
   );
 }
 

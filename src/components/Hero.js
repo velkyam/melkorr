@@ -19,7 +19,7 @@ function Hero() {
                         <div className='heroSubtitle'>
                             MelkorVisum je moderní integrovaná platforma plně přizpůsobitelná pro nespočet použití.
                         </div>
-                        <button type="button" class="btn btn-primary btn-lg learnButton"><Link className='nodecor' to='/melkorvisum'>MelkorVisum</Link></button>
+                        <Link className='nodecor' to='/melkorvisum'> <button type="button" class="btn btn-primary btn-lg learnButton">MelkorVisum</button></Link>
                     </div>
                     <div className='videoContainer'>
                         <video width="100%" loop autoPlay muted playsInline className='bgVideo'>
