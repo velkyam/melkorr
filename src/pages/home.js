@@ -4,7 +4,7 @@ import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Offer from '../components/Offer';
-import Bar from '../components/Bar';
+/* import Bar from '../components/Bar'; */
 
 function Home() {
     return (
