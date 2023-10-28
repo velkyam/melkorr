@@ -1,17 +1,19 @@
 import React from "react";
 import '../App.css';
 import Nav from '../components/Nav';
+import About from '../components/About';
 import Footer from '../components/Footer';
 
 
-function About() {
+function AboutPage() {
     return (
       <div className="App">
       <Nav/>
+      <About/>
       <Footer/>
       </div>
     );
   }
   
-  export default About;
+  export default AboutPage;
   
