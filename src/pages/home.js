@@ -9,7 +9,7 @@ import Bar from '../components/Bar';
 function Home() {
     return (
       <div className="App">
-        <Bar/>
+    {/*     <Bar/> */}
         <Nav/>
         <Hero/>
         <Offer/>

@@ -14,6 +14,7 @@ a{
     margin: 80px;
     background-color: white;
     box-shadow: 0 0px 14px 2px rgba(74, 85, 105, .12);
+    border-radius: 12px;
   }
   .formLabel{
     margin: 10px 0px;
@@ -29,6 +30,10 @@ a{
 .nodecor{
   text-decoration: none;
   color: currentColor;
+}
+.typeWriter{
+  display: inline-block;
+  
 }
 /* Message */
 .Bar{
@@ -99,6 +104,10 @@ a{
   max-width: 200px;
   border:none;
 }
+.buttonColor{
+  background-image: linear-gradient(135deg, #0bd1ff 25%, #ffa3ff , #ffd34e);
+
+}
 /* Hero */
 .pageContainer{
   display: flex;
@@ -143,12 +152,13 @@ font-size: 50px;
 font-weight: 600;
 line-height: 65px;
 margin: 20px 0px;
-max-width: 400px;
+max-width: 450px;
 
 }
 
 .heroSubtitle{
   margin: 20px 0px 40px;
+  font-size: 20px;
   max-width: 360px
 }
 
@@ -169,11 +179,11 @@ max-width: 400px;
   margin: 0px auto 40px;
   font-weight: 600;
   font-size: 32px;
+
 }
 .thirdText{
   color: black;
   font-size: 20px;
-  font-weight: 500;
   margin: 150px 20px 20px;
   text-align: center;
   max-width: 85%;
@@ -201,39 +211,70 @@ max-width: 400px;
 }
 
 .card1{
-  background-color: #e4f5f6;
+  background-image: linear-gradient(180deg, #ffffff 25%, #edfdfe);
   flex-direction: column;
   justify-content: space-between;
-  padding: 50px 47px 30px;
+  padding: 50px 47px;
   display: flex;
   margin: 0 auto;
   width: 90%;
+  box-shadow: 2px 2px 10px #ECECEC;
+  border-radius: 12px;
 }
 
 .card2{
-  background-color: #ffefd6;;
+  background-image: linear-gradient(180deg, #ffffff 25%, #fffbff);
+  background-color:  #fffbff;
   flex-direction: column;
   justify-content: space-between;
-  padding: 50px 47px 30px;
+  padding: 50px 47px;
   display: flex;
   margin: 0 auto;
   width: 90%;
+  box-shadow: 2px 2px 10px #ECECEC;
+  border-radius: 12px;
 }
 
 .card3{
-  background-color: #ebfaff;
+  background-image: linear-gradient(180deg, #ffffff 25%, #f4fff4);
   flex-direction: column;
   justify-content: space-between;
-  padding: 50px 47px 30px;
+  padding: 50px 47px;
   display: flex;
   margin: 0 auto;
   width: 90%;
+  box-shadow: 2px 2px 10px #ECECEC;
+  border-radius: 12px;
 }
-.cardIcon{
-  max-width: 120px;
-  margin: 50px auto;;
+.card1:hover{
+  
+  transform: scale(1.015);
+
+  
+
+}
+.card2:hover{
+  transform: scale(1.015);
+
+}
+.card3:hover{
+  transform: scale(1.015);
+
 }
 
+.cardIcon{
+  max-width: 100px;
+  margin: 40px auto;
+}
+.learnButton2{
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 100px;
+  padding: 12px 24px;
+  transition: all .35s;
+  max-width: 200px;
+  border:none;
+}
 .learnLink{
   display: flex;
   color: black;
@@ -411,14 +452,18 @@ box-shadow: 2px 2px 10px #e7ebf3;
     align-items: center;
   }
   .heroTitle{
+    display: block;
     font-size: 35px;
     line-height: normal;
     margin-top: 60px;
-    text-align: left;
-    max-width: 90%;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+
   }
   .heroSubtitle{
     max-width: 90%;
+    text-align: center;
   }
   .videoContainer{
     display: flex;
@@ -428,7 +473,6 @@ box-shadow: 2px 2px 10px #e7ebf3;
 
   }
   .learnButton{
-    width: 90%;
     max-width: none;
   }
   .thirdTextTitle{
@@ -439,7 +483,7 @@ box-shadow: 2px 2px 10px #e7ebf3;
     margin: 100px 0px 0px;
     max-width: 90%;
     text-align: center;
-    font-size: 16px;
+
   }
   .cardIcon{
     max-width: 100px;

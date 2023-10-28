@@ -5,6 +5,7 @@ import video2 from './assets/images/Untitled.webm'
 import card1 from '../components/assets/images/card1.svg'
 import card2 from '../components/assets/images/card2.svg'
 import card3 from '../components/assets/images/card3.svg'
+import Typewriter from 'typewriter-effect';
 
 function Hero() {
     return (
@@ -15,8 +16,16 @@ function Hero() {
                     <div className='heroTextContainer'>
                     
                         <h1 className='heroTitle'>
-                        Efektivní řešení pro industriální
-                        systémy.
+                        <span>Efektivní řešení pro
+<Typewriter className='typeWriter'
+  options={{
+    strings: ['průmyslové', 'energetické', 'dopravní'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
+                        systémy. 
+                        </span>
                         </h1>
                         <div className='heroSubtitle'>
                             MelkorVisum je moderní integrovaná platforma plně přizpůsobitelná pro jakýkoli komplexní systémy.
@@ -35,21 +44,31 @@ function Hero() {
                 <div className='thirdText'><h2 className='thirdTextTitle'>MelkorVisum</h2>Platforma MelkorVisum nám umožňuje rychle a efektivně vyvíjet vysoce přizpůsobitelné, spolehlivé systémy k vizualizaci dopravních, průmyslových či energetických provozů.
                 </div>
                 <div className='gridContainer'>
-                    <div className='card1'>
+                   
+                    <Link to='/melkorvisum' className='card1 nodecor'>
                         <div className='cardTitle'>Kompletní softwarová řešení na klíč</div>
                         <img className="cardIcon" src={card1} alt="software" />
-                        <Link to='/melkorvisum' className='learnLink'>Více o MelkorVisu</Link>
-                    </div>
-                    <div className='card2'>
+                      <div className='learnLink'>
+                      Více o MelkorVisu
+                        </div> 
+                       </Link>
+                   
+                       <Link to='/melkorvisum' className='card2 nodecor'>
                         <div className='cardTitle'>Integrace se stávajícími technologiemi</div>
                         <img className="cardIcon" src={card2} alt="control_panel" />
-                        <Link to='/melkorvisum' className='learnLink'>Více o MelkorVisu</Link>
-                    </div>
-                    <div className='card3'>
+                        <div className='learnLink'>
+                       Více o MelkorVisu
+                       </div>
+                        </Link>
+               
+                    <Link to='/melkorvisum' className='card3 nodecor'>
                         <div className='cardTitle'>Moderní vzhled přizpůsobený na míru</div>
                         <img className="cardIcon" src={card3} alt="computer" />
-                        <Link to='/melkorvisum' className='learnLink'>Více o MelkorVisu</Link>
-                    </div>
+                        <div className='learnLink'>
+                       Více o MelkorVisu
+                       </div>
+                    </Link>
+                  
                 </div>
             </div>
         </div>
