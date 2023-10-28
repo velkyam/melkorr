@@ -35,8 +35,10 @@ a{
   margin: auto auto auto 0px;
 }
 .typeWriter{
-  display: inline-block;
-  
+  display: inline-block; 
+}
+#formbutton-form input[type=text]{
+  border: solid black 1px;
 }
 /* Message */
 .Bar{
