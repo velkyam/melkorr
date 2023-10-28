@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 
 function AboutPage() {
     return (
-      <div className="App">
+      <div>
       <Nav/>
       <About/>
       <Footer/>

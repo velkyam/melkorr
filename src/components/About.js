@@ -18,41 +18,28 @@ function About() {
                     <h1 className='teamTitle'>
                         Náš tým
                     </h1>
-            
+
 
                     <div className='teamContainer'>
                         <div className='teamMember'>
-                        <img className="profilePhoto" src={Premek} alt="Přemysl_Till" />
-                        <div className='memberText'>
-                            <h4 className='aboutName'>
-                                Ing. Bc. et Bc. Přemysl Till
-                            </h4>
-                            <p className='aboutPosition'>
-                                jednatel, senior developer
-                            </p>
-                            <p className='profileText'>
-                                Absolvent Fakulty informatiky Masarykovy Univerzity a Fakulty elektrotechniky a komunikačních technologií VUT, vede tým programátorů, kombinuje zkušenosti a znalosti programování a elektrotechniky.
-                            </p>
-                            <a className="underline" href="mailto:ptill@melkor.czz">ptill@melkor.cz</a>
-                        </div>
+                            <img className="profilePhoto" src={Premek} alt="Přemysl_Till" />
+                            <div className='memberText'>
+                                <h4 className='aboutName'>Ing. Bc. et Bc. Přemysl Till</h4>
+                                <p className='aboutPosition'>jednatel, senior developer</p>
+                                <p className='profileText'>Absolvent Fakulty informatiky Masarykovy Univerzity a Fakulty elektrotechniky a komunikačních technologií VUT, vede tým programátorů, kombinuje zkušenosti a znalosti programování a elektrotechniky.</p>
+                                <a className="underline" href="mailto:ptill@melkor.czz">ptill@melkor.cz</a>
+                            </div>
                         </div>
                         <div className='teamMember'>
                             <img className="profilePhoto" src={Robert} alt="Robert_Kerndl" />
-                        <div className='memberText'>
-                            <h4 className='aboutName'>
-
-                                JUDr. Robert Kerndl
-                            </h4>
-                            <p className='aboutPosition'>
-                                jednatel, právník
-                            </p>
-                            <p className='profileText'>
-                                Absolvent Právnické fakulty Univerzity Karlovy, právník se specializací na obchodní akviziční právo a právo veřejných zakázek.
-                            </p>
-                            <a className="underline" href="mailto:rkerndl@melkor.cz">rkerndl@melkor.cz</a>
+                            <div className='memberText'>
+                                <h4 className='aboutName'>JUDr. Robert Kerndl</h4>
+                                <p className='aboutPosition'>jednatel, právník</p>
+                                <p className='profileText'>Absolvent Právnické fakulty Univerzity Karlovy, právník se specializací na obchodní akviziční právo a právo veřejných zakázek.</p>
+                                <a className="underline" href="mailto:rkerndl@melkor.cz">rkerndl@melkor.cz</a>
+                            </div>
+                        </div>
                     </div>
-                        </div>
-                        </div>
 
 
                 </div>
