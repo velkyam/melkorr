@@ -88,7 +88,7 @@ a{
   margin: 0px 15px 0 0;
 }
 .logoTitle{
-  color: #005baa; 
+  color: #29abe2; 
   padding-top: 15px;
   font-size: 32px;
   font-weight: 800;
@@ -114,6 +114,7 @@ a{
   max-width: 200px;
   border:none;
 }
+
 .buttonColor{
   background-image: linear-gradient(135deg, #0bd1ff 25%, #ffa3ff , #ffd34e);
 
@@ -131,7 +132,7 @@ a{
   width: 100%;
   background-image: url("./components/assets/images/poly9.svg");
   align-items: center;
-  min-height: 100vh;
+  padding: 0px 0px 150px;
 }
 
 .heroWidth{
@@ -195,19 +196,26 @@ max-width: 450px;
 .thirdText{
   color: black;
   font-size: 20px;
-  margin: 150px 20px 20px;
+  margin: 100px 20px 20px;
   text-align: center;
   max-width: 85%;
 }
 
 /* Grid of cards */
+.cardsectionContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 1130px;
+}
 .gridContainer{
   display:flex;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 62px 0px 82px;
+  margin: 62px auto 82px;
   max-width: 1130px;
   width: 100%;
 }
@@ -217,7 +225,7 @@ max-width: 450px;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  max-width: 150px;
+  max-width: 240px;
   margin: 0 auto;
 }
 
@@ -305,13 +313,13 @@ max-width: 450px;
   margin: 0px auto;
   display: flex;
   flex-direction: row;
-  padding: 100px 0px;
+  padding: 100px 0px 150px;
+  justify-content: space-between;
 }
 
 .rightBg{
   position: relative;
-  width: 100%;
-  right: -8vw;
+  width: 40%;
 }
 
 .howTextContainer{
@@ -321,24 +329,26 @@ max-width: 450px;
 }
 .howTitle{
   margin-bottom: 50px;
-  font-size: 44px;
+  font-size: 40px;
   font-weight: 500;
   line-height: 60px;
 }
 
 .howText{
   margin: 40px auto;
+  font-size: 20px;
 }
 
 .offerTitle{
   text-align: center;
-  margin-bottom: 30px;
+  margin: 30px 5vw;
 }
 
 .offerText{
   margin: 50px auto 0px;
   text-align: center;
   max-width: 40vw;
+  font-size: 20px;
 }
 
 
@@ -466,7 +476,7 @@ box-shadow: 2px 2px 10px #e7ebf3;
   display: flex;
   position: relative;
   flex-direction: column;
-  background-color: #edf6ff;
+  background-color: #e6f9ff;
   margin: 0px auto;
 
 }
@@ -522,22 +532,25 @@ box-shadow: 2px 2px 10px #e7ebf3;
   .featureGrid{
     flex-direction: column;
   }
-  .heroTextContainer{
-    align-items: center;
+  .hero{
+    padding-bottom: 60px;
   }
   .heroTitle{
-    display: block;
+    position: relative;
     font-size: 35px;
     line-height: normal;
     margin-top: 60px;
-    text-align: center;
+    margin-left: 5vw;
+    text-align: left;
     width: auto;
     max-width: 100%;
-
+    
   }
   .heroSubtitle{
     max-width: 90%;
-    text-align: center;
+    text-align: leftr;
+    margin-top: 30px;
+    margin-left: 5vw;
   }
   .videoContainer{
     display: flex;
@@ -550,14 +563,17 @@ box-shadow: 2px 2px 10px #e7ebf3;
     max-width: none;
     margin: 0 auto;
   }
+  .melkorButt{
+    margin: 20px 0;
+  }
   .thirdTextTitle{
     display: flex;
     justify-content: center;
   }
   .thirdText{
-    margin: 100px 0px 0px;
+    margin: 80px 0px 0px;
     max-width: 90%;
-    text-align: center;
+    text-align: left;
 
   }
   .cardIcon{
@@ -576,16 +592,21 @@ box-shadow: 2px 2px 10px #e7ebf3;
 
   .rightBg{
     display: flex;
-    position: relative;
-    right: 0;
+    width: 70%;
+
   }
   .map{
     width: 100%;
   }
-
+  .howTitle{
+  text-align: left;
+  max-width: 90%;
+  
+  }
   .offerText{
     width: 90%;
     max-width: none;
+    text-align: left;
   }
   .featureGrid{
     flex-direction: row;
