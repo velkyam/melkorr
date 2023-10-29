@@ -198,6 +198,8 @@ font-family: 'IBM Plex Sans', sans-serif;
   margin: 0px auto 40px;
   font-size: 40px;
   font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  color: #2E3192;
 }
 .thirdText{
   color: black;
@@ -390,9 +392,8 @@ font-family: 'IBM Plex Sans', sans-serif;
   ),
   linear-gradient(
     to right,
-    rgb(129, 193, 239),
-    rgb(191, 250, 191),
-    rgb(250, 204, 228)
+    rgb(235, 235, 255),
+    rgb(46, 49, 146)
 );
 background-size: 100% 3px, 0 3px;
 background-position: 100% 100%, 0 0;
@@ -485,7 +486,7 @@ box-shadow: 2px 2px 10px #e7ebf3;
   display: flex;
   position: relative;
   flex-direction: column;
-  background-color: #edfcff;
+  background-color: #ebebff;
   margin: 0px auto;
 
 }

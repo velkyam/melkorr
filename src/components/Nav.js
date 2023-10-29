@@ -32,7 +32,7 @@ function Nav() {
                                  <Link className="nav-link navPage" to='/reference'>Reference</Link>
                              </li>
                              <li className="nav-item">
-                                 <Link className='nodecor' to='/kontakt'><button type="button" className="btn btn-primary btn-lg learnButton" >Kontaktujte Nás</button></Link>
+                                 <Link className='nodecor' to='/kontakt'><button type="button" className="btn btn-primary btn-lg learnButton" >Kontaktujte nás</button></Link>
                              </li>
                          </ul>
                      </div>
