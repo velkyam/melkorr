@@ -138,7 +138,8 @@ a{
   flex-direction: column;
   display: flex;
   width: 100%;
-  background-image: url("./components/assets/images/poly9.svg");
+  background-image: url("./components/assets/images/c17.svg");
+
   align-items: center;
   padding: 0px 0px 150px;
 }
