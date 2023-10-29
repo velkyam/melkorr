@@ -7,7 +7,9 @@ import About from './pages/about';
 import Melkorvisum from './pages/melkorvisum';
 import Reference from './pages/references';
 import Contact from './pages/contact';
- 
+
+
+
 function App() {
     return (
         <Router>

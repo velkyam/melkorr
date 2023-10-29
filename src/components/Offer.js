@@ -10,9 +10,17 @@ import scale from '../components/assets/images/scale.svg'
 import reseni from '../components/assets/images/reseni.svg'
 import spolehlivost from '../components/assets/images/spolehlivost.svg'
 
-import card1 from '../components/assets/images/card1.svg'
-import card2 from '../components/assets/images/card2.svg'
-import card3 from '../components/assets/images/card3.svg'
+import card1 from '../components/assets/images/software.svg'
+import card2 from '../components/assets/images/plc.svg'
+import card3 from '../components/assets/images/vzhled.svg'
+
+
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCircleRight } from '@fortawesome/free-solid-svg-icons'
+
+
+
 
 function Offer() {
 
@@ -29,7 +37,7 @@ function Offer() {
                         <div className='cardTitle'>Kompletní softwarová řešení na klíč</div>
                         <img className="cardIcon" src={card1} alt="software" />
                         <div className='learnLink'>
-                            Více o MelkorVisu
+                            Více o MelkorVisu <FontAwesomeIcon className='icon' icon={faCircleRight} style={{color: "#3fa9f5",}} />
                         </div>
                     </Link>
 
@@ -37,7 +45,7 @@ function Offer() {
                         <div className='cardTitle'>Integrace se stávajícími technologiemi</div>
                         <img className="cardIcon" src={card2} alt="control_panel" />
                         <div className='learnLink'>
-                            Více o MelkorVisu
+                            Více o MelkorVisu <FontAwesomeIcon className='icon' icon={faCircleRight} style={{color: "#ed1e79",}} />
                         </div>
                     </Link>
 
@@ -45,7 +53,7 @@ function Offer() {
                         <div className='cardTitle'>Moderní vzhled přizpůsobený na míru</div>
                         <img className="cardIcon" src={card3} alt="computer" />
                         <div className='learnLink'>
-                            Více o MelkorVisu
+                            Více o MelkorVisu <FontAwesomeIcon className='icon' icon={faCircleRight} style={{color: "#39b54a",}} />
                         </div>
                     </Link>
 
@@ -59,7 +67,7 @@ function Offer() {
                         Od řídicích a vizualizačních aplikací po sofistikované algoritmy, MelkorVisum platforma poskytuje našim průmyslovým a energetickým partnerům maximální flexibilitu a kontrolu.
                     </div>
 
-                    <Link to='/melkorvisum' className='learnLink'>Podívejte se, jak to všechno jde dohromady</Link>
+                    <Link to='/melkorvisum' className='learnLink underline'>Podívejte se, jak to všechno jde dohromady</Link>
                 </div>
                 <div className='rightBg'> <img className="map" src={map} alt="station_scheme" /></div>
 

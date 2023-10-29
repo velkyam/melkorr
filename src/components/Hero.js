@@ -13,10 +13,10 @@ function Hero() {
                     <div className='heroTextContainer'>
 
                         <h1 className='heroTitle'>
-                            <span>Efektivní řešení pro
+                            <span>Snadné řešení pro
                                 <Typewriter className='typeWriter' 
                                     options={{
-                                        strings: ['průmyslové', 'energetické', 'dopravní'],
+                                        strings: ['dopravní', 'průmyslové', 'energetické', 'obchodní'],
                                         autoStart: true,
                                         loop: true,
                                     }}
@@ -25,7 +25,7 @@ function Hero() {
                             </span>
                         </h1>
                         <div className='heroSubtitle'>
-                            MelkorVisum je moderní integrovaná platforma plně přizpůsobitelná pro jakýkoli komplexní systémy.
+                            MelkorVisum je moderní integrovaná platforma plně přizpůsobitelná pro jakkoli náročný případ použití.
                         </div>
                         <Link className='nodecor' to='/melkorvisum'> <button type="button" className="btn btn-success btn-lg melkorButt ">MelkorVisum</button></Link>
                     </div>
