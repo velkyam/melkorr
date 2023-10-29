@@ -1,5 +1,5 @@
 import React from 'react';
-import navLogo from '../components/assets/images/logo-blue1.svg'
+import navLogo from '../components/assets/images/logo8.svg'
 import { Link } from 'react-router-dom';
 
 function Nav() {
@@ -11,7 +11,7 @@ function Nav() {
              <div className="topNav">
                  <Link to="/" className="navbar-brand logoContainer" >
                      <img className="navLogo" src={navLogo} alt="melkor_logo" />
-                     <h1 className="logoTitle">Melkor</h1>
+                
                  </Link>
                  <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
                      <span className="navbar-toggler-icon"></span>
@@ -26,7 +26,7 @@ function Nav() {
                                  <Link className="nav-link navPage" to='/melkorvisum'>MelkorVisum</Link>
                              </li>
                              <li className="nav-item">
-                                 <Link className="nav-link navPage" to="/onas">O Nás</Link>
+                                 <Link className="nav-link navPage" to="/onas">O nás</Link>
                              </li>
                              <li className="nav-item">
                                  <Link className="nav-link navPage" to='/reference'>Reference</Link>

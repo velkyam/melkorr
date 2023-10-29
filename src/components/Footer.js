@@ -1,5 +1,5 @@
 import React from 'react';
-import navLogo from '../components/assets/images/logo-blue1.svg'
+import navLogo from '../components/assets/images/logo8.svg'
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -29,7 +29,7 @@ function Footer() {
                 </div>
                     <Link className="navbar-brand logoContainer" to="/">
                         <img className="navLogo" src={navLogo} alt="melkor_logo" />
-                        <h1 className="logoTitle">Melkor</h1>
+                        
                     </Link>
                 </div>
                 <div className='copyright'>Copyright © 2023 Melkor Software. Všechna práva vyhrazena.</div>
