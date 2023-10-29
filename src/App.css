@@ -200,7 +200,6 @@ font-weight: 500;
 }
 .thirdTextTitle{
   margin: 0px auto 40px;
-  font-weight: 500;
   font-size: 40px;
   font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -395,12 +394,9 @@ font-weight: 500;
   ),
   linear-gradient(
     to right,
-   /*  rgba(255, 0, 0, 1),
-    rgba(255, 0, 180, 1),
-    rgba(0, 100, 200, 1) */
-    rgb(255, 0, 128),
-    rgb(187, 0, 255),
-    rgba(0, 100, 200, 1)
+    rgb(129, 193, 239),
+    rgb(191, 250, 191),
+    rgb(250, 204, 228)
 );
 background-size: 100% 3px, 0 3px;
 background-position: 100% 100%, 0 0;
@@ -433,6 +429,7 @@ box-shadow: 2px 2px 10px #e7ebf3;
   max-width: 1130px;
   margin: 0 auto;
   min-height: 100vh;
+
 }
 .aboutTitle{
   text-align: center;
@@ -455,6 +452,7 @@ box-shadow: 2px 2px 10px #e7ebf3;
 .teamTitle{
   margin: 0 0 80px;
   text-align: center;
+  
 }
 .teamMember{
   display: flex;
@@ -492,7 +490,7 @@ box-shadow: 2px 2px 10px #e7ebf3;
   display: flex;
   position: relative;
   flex-direction: column;
-  background-color: white;
+  background-color: #edfcff;
   margin: 0px auto;
 
 }
@@ -641,6 +639,7 @@ box-shadow: 2px 2px 10px #e7ebf3;
   }
 
   /* Contact Form */
+
   .formContainer{
     display: flex;
     flex-direction: column;

@@ -5,9 +5,11 @@ import Premek from '../components/assets/images/premek.jpg'
 function About() {
     return (
 
+        <div className='sectionContainer'>
         <div className='aboutContainer'>
             <div className="heroContainer">
                 <div className='heroTextContainer'>
+                
 
                     <h1 className='aboutTitle'>
                         O nás
@@ -42,6 +44,7 @@ function About() {
                     </div>
 
 
+                </div>
                 </div>
             </div>
         </div>

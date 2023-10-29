@@ -67,7 +67,7 @@ function Offer() {
                         Od řídicích a vizualizačních aplikací po sofistikované algoritmy, MelkorVisum platforma poskytuje našim průmyslovým a energetickým partnerům maximální flexibilitu a kontrolu.
                     </div>
 
-                    <Link to='/melkorvisum' className='learnLink underline'>Podívejte se, jak to všechno jde dohromady</Link>
+                    <Link to='/melkorvisum' className='learnLink underline'>Podívejte se, jak to všechno jde dohromady <FontAwesomeIcon className='icon' icon={faCircleRight} /></Link>
                 </div>
                 <div className='rightBg'> <img className="map" src={map} alt="station_scheme" /></div>
 

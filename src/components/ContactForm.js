@@ -9,6 +9,7 @@ function ContactForm() {
     return <p>Děkujeme za dotaz. Brzy se vám ozveme!</p>;
   }
   return (
+    <div className='sectionContainer'>
     <div className='hero'>
       <div className="heroWidth">
           <div className='contactInfo'>
@@ -38,6 +39,7 @@ function ContactForm() {
               </button>
             </form>
           </div>
+        </div>
         </div>
 
 
