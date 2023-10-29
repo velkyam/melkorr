@@ -34,7 +34,7 @@ function ContactForm() {
                 <textarea className="form-control formText" id="message" name="message" placeholder="Rád bych se dozvěděl více o MelkorVisu, ale nevím kde začít." required rows="5"/>
                 <ValidationError prefix="Message" field="message" errors={state.errors}/>
               </div>
-              <button className="btn btn-primary" type="submit" disabled={state.submitting}>
+              <button className="btn btn-primary learnButton" type="submit" disabled={state.submitting}>
                 Odeslat
               </button>
             </form>

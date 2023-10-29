@@ -4,7 +4,7 @@
   
 }
 body{
-  font-family: 'Lato', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 a{
   cursor: pointer;
@@ -93,12 +93,6 @@ a{
   width: 180px;
 
 }
-.logoTitle{
-  color: #29abe2; 
-  padding-top: 15px;
-  font-size: 32px;
-  font-family: 'IBM Plex Sans', sans-serif;
-}
 
 .logoContainer{
   display: flex;
@@ -118,6 +112,7 @@ a{
   transition: all .35s;
   max-width: 200px;
   border:none;
+  background-color: #2E3192;
 }
 .melkorButt{
   font-weight: 600;
@@ -521,6 +516,10 @@ box-shadow: 2px 2px 10px #e7ebf3;
 }
 
 @media only screen and (max-width: 992px) {
+  .navLogo{
+    width: 150px;
+  
+  }
   .messageBar{
     max-width: 90%;
   }
@@ -576,6 +575,7 @@ box-shadow: 2px 2px 10px #e7ebf3;
   .learnButton{
     max-width: none;
     margin: 0 auto;
+
   }
   .melkorButt{
     margin: 20px 0;
