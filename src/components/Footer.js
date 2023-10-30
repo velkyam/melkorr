@@ -6,22 +6,22 @@ function Footer() {
 
 
     return (
-        <div className='footer'>
-            <div className='footerColumn'>
+        <div className='footer '>
+            <div className='footerColumn widthContainer'>
                 <div className='footerContainer'>
                     <div className='infoContainer'>
                     <div className='footerLeft'>
 
                         <b>Melkor Software, s.r.o.</b>
-                     <a className="learnLink underline" href="mailto:info@melkor.cz">info@melkor.cz</a>
+                        <p><a className="learnLink" href="mailto:info@melkor.cz">info@melkor.cz</a></p>
                         <br />
                         <b>Sídlo</b>
-                        <div>Hlaváčova 618/28<br />614 00 Brno</div>
+                        <p>Hlaváčova 618/28<br />614 00 Brno</p>
                     </div>
 
                     <div className='footerRight'>
                         <b>Datová schránka</b>
-                        <div>s7zhync</div>
+                        <p>s7zhync</p>
                         <br />
                         <b>IČO:</b>  173 12 914<div>vedená u Krajského soudu v Brně, zn. C 129441</div>
                         <a  href="https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1163732&typ=PLATNY" target="blank" className='learnLink underline'>Veřejný rejstřík</a>

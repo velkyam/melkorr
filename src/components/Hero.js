@@ -8,8 +8,7 @@ function Hero() {
     return (
 
         <div className='hero'>
-            <div className='heroWidth'>
-                <div className="heroContainer">
+                <div className="widthContainer heroContainer">
                     <div className='heroTextContainer'>
 
                         <h1 className='heroTitle'>
@@ -27,7 +26,7 @@ function Hero() {
                         <div className='heroSubtitle'>
                             MelkorVisum je moderní integrovaná platforma plně přizpůsobitelná pro jakkoli náročný případ použití.
                         </div>
-                        <Link className='nodecor' to='/melkorvisum'> <button type="button" className="btn btn-success btn-lg melkorButt ">MelkorVisum</button></Link>
+                        <Link to='/melkorvisum'> <button type="button" className="btn btn-success btn-lg learnButton melkorButton ">MelkorVisum</button></Link>
                     </div>
                     <div className='videoContainer'>
                         <video width="100%" loop autoPlay muted playsInline className='bgVideo'>
@@ -38,7 +37,6 @@ function Hero() {
                     </div>
                 </div>
 
-            </div>
         </div>
 
     );
