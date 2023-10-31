@@ -1,5 +1,5 @@
 import React from 'react';
-import Robert from '../components/assets/images/robert.JPG'
+import Robert from '../components/assets/images/robert.jpg'
 import Premek from '../components/assets/images/premek.jpg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
