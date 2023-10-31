@@ -23,7 +23,7 @@ function Melkorvisum() {
 
                    
                     </div>
-                    <img  src={Melkor1} alt="melkorvisum_interface" />
+                    <img className='imageExample' src={Melkor1} alt="melkorvisum_interface" />
                 </div>
                 </div>
 

@@ -7,7 +7,7 @@ import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 function About() {
     return (
 
-        <div className='hero sectionContainer'>
+        <div className='sectionContainer'>
 
             <div className="widthContainer heroContainer">
                 <div className='heroTextContainer'>
