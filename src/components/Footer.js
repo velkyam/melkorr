@@ -1,5 +1,5 @@
 import React from 'react';
-import navLogo from '../components/assets/images/logo10_1.svg'
+import navLogo from '../components/assets/images/logo13.svg'
 import { Link } from 'react-router-dom';
 
 function Footer() {
