@@ -23,6 +23,9 @@ function Nav() {
                      <div className="offcanvas-body">
                          <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 align-items-center">
                              <li className="nav-item">
+                             <Link to="/" className="nav-link navPage homePage" >Hlavní stránka</Link>
+                             </li>
+                             <li className="nav-item">
                                  <Link className="nav-link navPage" to='/melkorvisum'>MelkorVisum</Link>
                              </li>
                              <li className="nav-item">

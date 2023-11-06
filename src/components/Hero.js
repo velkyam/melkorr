@@ -12,7 +12,7 @@ function Hero() {
                     <div className='heroTextContainer'>
 
                         <h1 className='heroTitle'>
-                            <span>Snadné řešení pro
+                            <span>Moderní řešení pro
                                 <Typewriter className='typeWriter' 
                                     options={{
                                         strings: ['dopravní', 'průmyslové', 'energetické', 'obchodní'],

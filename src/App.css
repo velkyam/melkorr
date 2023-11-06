@@ -66,6 +66,9 @@ a {
   background-color: var(--purple);
 
 }
+.homePage{
+  display: none;
+}
 
 /* Hero */
 .widthContainer {
@@ -444,6 +447,9 @@ a {
     width: 90%;
     text-align: center;
     margin: 20px 0px 0px 0px;
+  }
+  .homePage{
+    display: block;
   }
   .widthContainer{
     max-width: 90%;
