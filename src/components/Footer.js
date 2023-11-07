@@ -10,25 +10,32 @@ function Footer() {
             <div className='footerColumn widthContainer'>
                 <div className='footerContainer'>
                     <div className='infoContainer'>
-                    <div className='footerLeft'>
+                    <ul className='footerLeft'>
 
-                        <b>Melkor Software, s.r.o.</b>
-                        <p><a className="learnLink" href="mailto:info@melkor.cz">info@melkor.cz</a></p>
-                        <br />
-                        <b>Sídlo</b>
-                        <p>Hlaváčova 618/28<br />614 00 Brno</p>
-                    </div>
+                        <li><b>Melkor Software, s.r.o.</b></li>
+                        <li><a className="learnLink" href="mailto:info@melkor.cz">info@melkor.cz</a></li>
+                        <li>Hlaváčova 618/28<br/>614 00 Brno</li>
+                    </ul>
 
-                    <div className='footerRight'>
-                        <b>Datová schránka</b>
-                        <p>s7zhync</p>
-                        <br />
-                        <b>IČO:</b>  173 12 914<div>vedená u Krajského soudu v Brně, zn. C 129441</div>
-                        <a  href="https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1163732&typ=PLATNY" target="blank" className='learnLink underline'>Veřejný rejstřík</a>
-                    </div>
+
+                    <ul className="footerRight">
+                             <li className="nav-item">
+                                 <Link className="nav-link navPage" to='/melkorvisum'>MelkorVisum</Link>
+                             </li>
+                             <li className="nav-item">
+                                 <Link className="nav-link navPage" to="/onas">O nás</Link>
+                             </li>
+                             <li className="nav-item">
+                                 <Link className="nav-link navPage" to='/reference'>Reference</Link>
+                             </li>
+                             <li className="nav-item">
+                                 <Link className="nav-link navPage"  to='/kontakt'>Kontaktujte nás</Link>
+                             </li>
+                         </ul>
                 </div>
+                
                     <Link className="navbar-brand logoContainer" to="/">
-                        <img className="navLogo" src={navLogo} alt="melkor_logo" />
+                        <img className="footLogo navLogo" src={navLogo} alt="melkor_logo" />
                         
                     </Link>
                 </div>

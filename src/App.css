@@ -1,6 +1,7 @@
 :root {
   --topNavColor: white;
   --purple: #2E3192;
+  --lightPurple: #ebebff;
 
 }
 
@@ -11,6 +12,7 @@ body {
 a {
   cursor: pointer;
 }
+
 
 /* Navigation */
 .navbar {
@@ -303,20 +305,48 @@ a {
 }
 
 /* Contact Page */
+.contactContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1130px;
+  margin: 0 auto;
+}
 .formContainer {
+  padding: 80px;
   display: flex;
   flex-direction: column;
-  width: 70%;
-  padding: 70px 100px 100px;
-  margin: 0 auto;
+  width: 48%;
   background-color: white;
   box-shadow: 0 0px 14px 2px rgba(74, 85, 105, .12);
   border-radius: 12px;
-  max-width: 600px;
 }
+.rightContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 48%;
+}
+.companyInfo{
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 0px 14px 2px rgba(74, 85, 105, .12);
+  border-radius: 12px;
+}
+ .underline{
+  color: black;
+ }
+/* background-image: url("./components/assets/images/circuit-board.svg"); */
+
+
 .heroContact {
   padding: 80px 0px 150px;
   min-height: 100vh;
+}
+.formTitle{
+  margin:0px 0px 30px;
 }
 .formLabel {
   margin: 10px 0px;
@@ -343,18 +373,15 @@ a {
 .aboutWidth{
   max-width: 75%;
   margin: 0 auto;
-
 }
 
 .aboutTitle {
   text-align: center;
   margin: 20px 0px 40px;
-
 }
 
 .aboutSubtitle {
   margin: 0 auto 100px;
-
 }
 
 .teamContainer {
@@ -367,7 +394,6 @@ a {
 .teamTitle {
   margin: 0 0 80px;
   text-align: center;
-
 }
 
 .teamMember {
@@ -388,7 +414,6 @@ a {
 }
 
   /* Melkorvisum */
-
   .imageExample{
     width: 100%;
   }
@@ -398,8 +423,9 @@ a {
   display: flex;
   position: relative;
   flex-direction: column;
-  background-color: #ebebff;
+  background-color: var(--lightPurple);
   margin: 0px auto;
+  font-size: 14px;
 }
 
 .footerContainer {
@@ -408,9 +434,8 @@ a {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  ;
   max-width: 1130px;
-  margin: 0px auto 80px;
+  margin: 0px auto 30px;
 }
 
 .infoContainer {
@@ -425,11 +450,18 @@ a {
   align-items: center;
   max-width: 1130px;
   width: 100%;
-  margin: 70px auto 30px;
+  margin: 60px auto 30px;
+}
+.footerRight {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
 }
 
 .footerLeft {
   margin-right: 100px;
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
 }
 /* MOBILE */
 @media only screen and (max-width: 992px) {
@@ -550,13 +582,23 @@ a {
   }
 
   /* Contact Form */
+  .contactContainer{
+    flex-direction: column;
+  }
   .heroContact {
     padding: 40px 0px 100px;
   }
   .formContainer {
     width: 90%;
     padding: 40px;
-
+    margin: 0 auto;
+  }
+  .rightContainer{
+    width: 90%;
+    margin:40px auto;
+  }
+  .companyInfo{
+    padding: 40px;
   }
 
   .formLabel {
@@ -601,18 +643,19 @@ a {
   /* Footer */
   .footerContainer {
     flex-direction: column;
-
+  }
+  .footerLeft{
+    margin: 0 auto;
+    text-align: center;
   }
 
+  .footerRight{
+    margin: 20px 0 40px;
+  }
   .infoContainer {
     flex-direction: column;
 
   }
-
-  .footerRight {
-    margin: 50px 0px;
-  }
-
   .copyright {
     width: 90%;
     text-align: center;
@@ -620,5 +663,8 @@ a {
 
   .nodecor {
     margin: 0 auto;
+  }
+  .footLogo{
+    margin-right: 50px;
   }
 }

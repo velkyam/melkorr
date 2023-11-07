@@ -2,6 +2,9 @@
 // For more help visit https://formspr.ee/react-help
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import mail from '../components/assets/images/mail.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("xoqoryke");
@@ -11,9 +14,10 @@ function ContactForm() {
   return (
     <div className='sectionContainer'>
     <div className='hero heroContact'>
+      <div className='contactContainer'>
+
             <form className="formContainer" onSubmit={handleSubmit}>
-            <h1 className='thirdTextTitle'>Máte dotaz? Neváhejte nám napsat.
-                        </h1>
+            <h2 className='formTitle'>Máte dotaz? Neváhejte nám napsat. </h2>
              
                 <label htmlFor="full-name" className="formLabel">Vaše jméno</label>
                 <input type="text" name="name" id="full-name" placeholder="Karel Novák" required autoComplete="true" className="form-control formInput"/>
@@ -32,6 +36,20 @@ function ContactForm() {
                 Odeslat
               </button>
             </form>
+  
+            <div className='rightContainer'>
+            <div className='companyInfo'>
+            <h4 className='formTitle'>Melkor Software, s.r.o.</h4>
+          
+                        <p><a className="learnLink" href="mailto:info@melkor.cz">info@melkor.cz<FontAwesomeIcon className='icon' icon={faPaperPlane} style={{ color: "#2e3192", }} /></a></p>
+                        <p>Hlaváčova 618/28 <br/> 614 00 Brno</p>
+                        <p>Datová schránka: <span>s7zhync</span></p>  
+                        <p>IČO: <span>173 12 914</span> <br/> vedená u Krajského soudu v Brně, zn. C 129441</p>
+                        <a  href="https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1163732&typ=PLATNY" target="blank" className='underline'>Veřejný rejstřík</a>
+
+      </div>
+      </div>
+      </div>
           </div>
         </div>
 
