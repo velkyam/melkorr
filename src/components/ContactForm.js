@@ -13,7 +13,7 @@ function ContactForm() {
   }
   return (
     <div className='sectionContainer'>
-    <div className='hero heroContact'>
+    <div className='contactBg heroContact'>
       <div className='contactContainer'>
 
             <form className="formContainer" onSubmit={handleSubmit}>
@@ -29,7 +29,7 @@ function ContactForm() {
                 <ValidationError prefix="Email" field="email" errors={state.errors}/>
            
                 <label htmlFor="message" className='formLabel'>S čím vám můžeme poradit?</label>
-                <textarea className="form-control formText" id="message" name="message" placeholder="Rád bych se dozvěděl více o MelkorVisu, ale nevím kde začít." required rows="5"/>
+                <textarea className="form-control formText" id="message" name="message" placeholder="Rád bych se dozvěděl více o MelkorVisu ale nevím, kde začít." required rows="5"/>
                 <ValidationError prefix="Message" field="message" errors={state.errors}/>
               
               <button className="btn btn-success learnButton submitButton purpleBg" type="submit" disabled={state.submitting}>
@@ -39,13 +39,13 @@ function ContactForm() {
   
             <div className='rightContainer'>
             <div className='companyInfo'>
-            <h4 className='formTitle'>Melkor Software, s.r.o.</h4>
+            <h2 className='formTitle'>Melkor Software, s.r.o.</h2>
           
                         <p><a className="learnLink" href="mailto:info@melkor.cz">info@melkor.cz<FontAwesomeIcon className='icon' icon={faPaperPlane} style={{ color: "#2e3192", }} /></a></p>
                         <p>Hlaváčova 618/28 <br/> 614 00 Brno</p>
                         <p>Datová schránka: <span>s7zhync</span></p>  
                         <p>IČO: <span>173 12 914</span> <br/> vedená u Krajského soudu v Brně, zn. C 129441</p>
-                        <a  href="https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1163732&typ=PLATNY" target="blank" className='underline'>Veřejný rejstřík</a>
+                        <a  href="https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1163732&typ=PLATNY" target="blank" className='learnLink underline'>Veřejný rejstřík</a>
 
       </div>
       </div>

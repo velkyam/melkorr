@@ -30,23 +30,27 @@ function About() {
 
                         <div className='teamContainer'>
                             <div className='teamMember'>
+
                                 <img className="profilePhoto" src={Premek} alt="Přemysl_Till" />
                                 <div className='memberText'>
-                                    <h4>Ing. Bc. et Bc. Přemysl Till</h4>
+                                    <p className='memberName'>Ing. Bc. et Bc. Přemysl Till</p>
                                     <p >jednatel, senior developer</p>
                                     <p>Absolvent Fakulty informatiky Masarykovy Univerzity a Fakulty elektrotechniky a komunikačních technologií VUT, vede tým programátorů, kombinuje zkušenosti a znalosti programování a elektrotechniky.</p>
-                                    <a className="learnLink" href="mailto:ptill@melkor.czz">ptill@melkor.cz<FontAwesomeIcon className='icon' icon={faPaperPlane} style={{ color: "#2e3192", }} /></a>
+                               
+                                    <a className="learnLink underline " href="mailto:ptill@melkor.czz">ptill@melkor.cz<FontAwesomeIcon className='icon' icon={faPaperPlane} style={{ color: "#2E3192", }} /></a>
                                 </div>
                             </div>
                             <div className='teamMember'>
+
                                 <img className="profilePhoto" src={Robert} alt="Robert_Kerndl" />
                                 <div className='memberText'>
-                                    <h4>JUDr. Robert Kerndl</h4>
+                                    <p className='memberName'>JUDr. Robert Kerndl</p>
                                     <p>jednatel, právník</p>
                                     <p>Absolvent Právnické fakulty Univerzity Karlovy, právník se specializací na obchodní akviziční právo a právo veřejných zakázek.</p>
-                                    <a className="learnLink" href="mailto:rkerndl@melkor.cz">rkerndl@melkor.cz<FontAwesomeIcon className='icon' icon={faPaperPlane} style={{ color: "#2e3192", }} /></a>
+                                    <a className="learnLink underline" href="mailto:rkerndl@melkor.cz">rkerndl@melkor.cz<FontAwesomeIcon className='icon' icon={faPaperPlane} style={{ color: "#2E3192", }} /></a>
                                 </div>
-                            </div>
+                          
+                        </div>
                         </div>
 
                     </div>
