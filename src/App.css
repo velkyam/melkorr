@@ -1,7 +1,7 @@
 :root {
   --topNavColor: white;
   --purple: #2E3192;
-  --lightPurple: #ebebff;
+  --lightPurple: #f9f4fd;
 
 }
 
@@ -129,7 +129,7 @@ a {
 .sectionContainer {
   position: relative;
   z-index: 5;
-  box-shadow: 1px 1px 30px rgba(0, 0, 0, .05), 1px 1px 15px rgba(0, 0, 0, .05);
+  box-shadow: 1px 1px 16px rgba(0, 0, 0, .05), 1px 1px 15px rgba(0, 0, 0, .05);
   min-height: 100vh;
 }
 
@@ -174,7 +174,7 @@ a {
 .card {
   flex-direction: column;
   justify-content: space-between;
-  padding: 50px 47px;
+  padding: 50px 36px;
   display: flex;
   margin: 0 auto;
   width: 100%;
@@ -395,6 +395,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .aboutSubtitle {
   margin: 0 auto 64px; /* 80px - 1rem from p element margin */
+
 }
 
 .teamContainer {
@@ -445,6 +446,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   padding: 16px;
 }
 /* Reference */
+.referenceBg{
+  background-color: var(--lightPurple);
+}
 .referenceCard{
   display: flex;
   flex-direction: column;
@@ -452,7 +456,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 }
 .milestoneTitle{
-  margin-bottom: 40px;
+  min-height: 30%;
+  margin-bottom:20px;
+}
+.trophy{
+  margin-left: 10px;
 }
 /* Melkorvisum */
 .imageExample {
@@ -466,7 +474,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   display: flex;
   position: relative;
   flex-direction: column;
-  background-color: var(--lightPurple);
   margin: 0px auto;
   font-size: 14px;
 }

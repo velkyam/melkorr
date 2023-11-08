@@ -6,21 +6,21 @@ import { faTrophy } from '@fortawesome/free-solid-svg-icons'
 function Reference() {
     return (
 
-        <div className='sectionContainer'>
+        <div className='sectionContainer '>
 
             <div className="widthContainer heroContainer">
                 <div className='heroTextContainer'>
-                   
 
 
-                        <h1 className='aboutTitle'>
-                            Naše úspěchy <FontAwesomeIcon icon={faTrophy} style={{color: "#ffdd00",}} />
-                        </h1>
-                        <div className='gridContainer'>
 
-                <div className='card referenceCard'>
-            
-                 
+                    <h1 className='aboutTitle'>
+                        Naše úspěchy <FontAwesomeIcon className="trophy" icon={faTrophy} bounce size="sm" style={{ color: "#ffdd00", }} />
+                    </h1>
+                    <div className='gridContainer'>
+
+                        <div className='card referenceCard'>
+
+
                             <h5 className='milestoneTitle'>Energetický dispečink Dopravní společnosti Zlín a Otrokovice</h5>
                             <p>
                                 Na naší technologii
@@ -30,9 +30,9 @@ function Reference() {
                             </p>
 
 
-                       
-                    </div>
-                <div className='card referenceCard'>
+
+                        </div>
+                        <div className='card referenceCard'>
                             <h5 className='milestoneTitle'>Místní řízení měnírny Heršpice a transformátorové stanice Slatina</h5>
                             <p>
                                 Pro Dopravní podnik
@@ -41,9 +41,9 @@ function Reference() {
                                 odpovídal systému předešlému.
                             </p>
 
-                    </div>
-                <div className='card referenceCard'>
-              
+                        </div>
+                        <div className='card referenceCard'>
+
                             <h5 className='milestoneTitle'>Dálkové řízení vytápění Orlovny Brno-Obřany</h5>
                             <p>
                                 Pro jednotu Orla Brno-Obřany jsme rozšířili
@@ -52,11 +52,11 @@ function Reference() {
                                 vytápění.
                             </p>
 
-                      
+
+                        </div>
+
                     </div>
-                    
-                        </div>
-                        </div>
+                </div>
 
 
 
