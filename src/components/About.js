@@ -11,7 +11,7 @@ function About() {
 
             <div className="widthContainer heroContainer">
                 <div className='heroTextContainer'>
-                    <div className='aboutWidth'>
+                    <div className='aboutWidt'>
 
 
                         <h1 className='aboutTitle'>

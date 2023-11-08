@@ -1,6 +1,9 @@
 import React from 'react';
-import Melkor1 from '../components/assets/images/melkor1.png'
 
+import Zlin from '../components/assets/images/MR1.png'
+import Zlin2 from '../components/assets/images/spotreba.png'
+import Zlin3 from '../components/assets/images/trakcni.png'
+import Zlin4 from '../components/assets/images/MR6-mistni.png'
 
 
 function Melkorvisum() {
@@ -10,7 +13,7 @@ function Melkorvisum() {
             
                 <div className='widthContainer heroContainer'>
                 <div className='heroTextContainer'>
-                <div className='aboutWidth'>
+             
 
                     <h1 className='aboutTitle'>
                         MelkorVisum
@@ -23,8 +26,15 @@ function Melkorvisum() {
 
                    
                     </div>
-                    <img className='imageExample' src={Melkor1} alt="melkorvisum_interface" />
-                </div>
+                    <h5>Schématické zobrazení technologie</h5>
+                                        <img className='imageExample' src={Zlin} alt="melkorvisum_interface" />
+
+                                                <h5>Schéma trakční sítě</h5>
+                                        <img className='imageExample' src={Zlin3} alt="melkorvisum_interface" />
+
+                                                <h5>Energetické limity</h5>
+                                        <img className='imageExample' src={Zlin2} alt="melkorvisum_interface " />
+                                          
                 </div>
 
             </div>
