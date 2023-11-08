@@ -30,10 +30,10 @@ function About() {
 
 
                         
-                        <h1 className='teamTitle'>
+              {          <h1 className='teamTitle'>
                             Náš tým
                         </h1>
-
+}
 
                         <div className='teamContainer'>
                             <div className='teamMember'>

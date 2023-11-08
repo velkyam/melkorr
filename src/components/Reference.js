@@ -2,11 +2,10 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrophy } from '@fortawesome/free-solid-svg-icons'
 
-
 function Reference() {
     return (
 
-        <div className='sectionContainer '>
+        <div className='sectionContainer hero'>
 
             <div className="widthContainer heroContainer">
                 <div className='heroTextContainer'>

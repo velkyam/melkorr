@@ -29,7 +29,8 @@ function Offer() {
 
         <div className="sectionContainer">
             <div className="widthContainer cardsectionContainer">
-                <div className='melkorvisumContainer'><h2 className='melkorvisumTitle'>MelkorVisum</h2>Platforma MelkorVisum nám umožňuje rychle a efektivně vyvíjet vysoce přizpůsobitelné, spolehlivé systémy k vizualizaci dopravních, průmyslových či energetických provozů.
+                <div className='melkorvisumContainer'><h2 className='melkorvisumTitle'>MelkorVisum</h2>Našim hlavním produktem je plně přizpůsobitelná 
+      a integrovaná platforma MelkorVisum, která nám umožňuje efektivně vyvíjet vysoce spolehlivé vizualizační a řídicí systémy pro průmyslové, energetické či dopravní provozy. 
                 </div>
                 <div className='gridContainer'>
 
@@ -64,10 +65,10 @@ function Offer() {
                     <div className='howTitle'>Jedna platforma,<br /> tisíce možností.
                     </div>
                     <div className='howText'>
-                        Od řídicích a vizualizačních aplikací po sofistikované algoritmy, MelkorVisum platforma poskytuje našim průmyslovým a energetickým partnerům maximální flexibilitu a kontrolu.
+                        Od řídicích a vizualizačních aplikací po sofistikované algoritmy, MelkorVisum poskytuje našim průmyslovým a energetickým partnerům maximální flexibilitu a kontrolu.
                     </div>
 
-                    <Link to='/melkorvisum' className='learnLink'>Podívejte se, jak to všechno jde dohromady <FontAwesomeIcon className='icon' icon={faCircleRight} /></Link>
+                    <Link to='/reference' className='learnLink'>Podívejte se, co všechno s námi můžete dokázat <FontAwesomeIcon className='icon' icon={faCircleRight} /></Link>
                 </div>
                 <div className='rightBg'> <img className="map" src={map} alt="station_scheme" /></div>
 
@@ -75,7 +76,8 @@ function Offer() {
             </div>
             <div className="widthContainer offerContainer">
             <div className='howTitle offerTitle'>Co nabízíme našim klientům</div>
-            <div className='offerText'>Ať už jste organizace veřejné dopravy, soukromý přepravce nebo velká korporace, Melkor poskytuje řešení na míru k vaším potřebám.</div>
+            <div className='offerText'>Ať už potřebujete renovovat energetický dispečink,
+      automatizovat výrobní linku či modernizovat přehled nad spotřebou energií, Melkor Software Vám poskytne spolehlivé řešení k vašim potřebám.</div>
 
 
 

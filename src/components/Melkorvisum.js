@@ -1,19 +1,26 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import Zlin from '../components/assets/images/MR1.png'
 import Zlin2 from '../components/assets/images/spotreba.png'
 import Zlin3 from '../components/assets/images/trakcni.png'
 import Zlin4 from '../components/assets/images/MR6-mistni.png'
+import 'lightbox.js-react/dist/index.css'
+import {SlideshowLightbox, initLightboxJS} from 'lightbox.js-react'
+
 
 
 function Melkorvisum() {
+    useEffect(() => {
+        initLightboxJS("9C64-9D7D-1161-2794", "Individual");
+      });
     return (
 
+
         <div className='sectionContainer'>
-            
-                <div className='widthContainer heroContainer'>
+
+            <div className='widthContainer heroContainer'>
                 <div className='heroTextContainer'>
-             
+
 
                     <h1 className='aboutTitle'>
                         MelkorVisum
@@ -24,18 +31,15 @@ function Melkorvisum() {
                         Základní funkce MelkorVisa ukážeme na konkrétním uplatnění na řízení sítě měníren:
 
 
-                   
+
                     </div>
-                    <h5>Schématické zobrazení technologie</h5>
-                                        <img className='imageExample' src={Zlin} alt="melkorvisum_interface" />
-
-                                                <h5>Schéma trakční sítě</h5>
-                                        <img className='imageExample' src={Zlin3} alt="melkorvisum_interface" />
-
-                                                <h5>Energetické limity</h5>
-                                        <img className='imageExample' src={Zlin2} alt="melkorvisum_interface " />
-                                          
-                </div>
+                    <SlideshowLightbox className='container grid grid-cols-3 gap-2 mx-auto' showThumbnails={true}>
+  <img className='w-full rounded imageExample' src={Zlin}/>
+  <img className='w-full rounded imageExample' src={Zlin3} />  
+  <img className='w-full rounded imageExample' src={Zlin2} />
+ 
+</SlideshowLightbox> 
+                   </div>
 
             </div>
         </div>

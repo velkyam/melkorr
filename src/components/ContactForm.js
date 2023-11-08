@@ -12,7 +12,7 @@ function ContactForm() {
   }
   return (
     <div className='sectionContainer'>
-    <div className='contactBg heroContact'>
+    <div className='hero heroContact'>
       <div className='contactContainer'>
 
             <form className="formContainer" onSubmit={handleSubmit}>
@@ -28,7 +28,7 @@ function ContactForm() {
                 <ValidationError prefix="Email" field="email" errors={state.errors}/>
            
                 <label htmlFor="message" className='formLabel'>S čím vám můžeme poradit?</label>
-                <textarea className="form-control formText" id="message" name="message" placeholder="Rád bych se dozvěděl více o MelkorVisu ale nevím, kde začít." required rows="5"/>
+                <textarea className="form-control formText" id="message" name="message" placeholder="Rád bych chtěl probrat jestli Melkor Software poskytuje správné řešení pro náš podnik." required rows="5"/>
                 <ValidationError prefix="Message" field="message" errors={state.errors}/>
               
               <button className="btn btn-success learnButton submitButton purpleBg" type="submit" disabled={state.submitting}>

@@ -15,7 +15,7 @@ function Hero() {
                             <span>Moderní řešení pro
                                 <Typewriter className='typeWriter' 
                                     options={{
-                                        strings: ['dopravní', 'průmyslové', 'energetické', 'obchodní'],
+                                        strings: ['průmyslové', 'energetické','dopravní', 'obchodní'],
                                         autoStart: true,
                                         loop: true,
                                     }}
@@ -24,9 +24,11 @@ function Hero() {
                             </span>
                         </h1>
                         <div className='heroSubtitle'>
-                            MelkorVisum je moderní integrovaná platforma plně přizpůsobitelná pro jakkoli náročný případ použití.
+                        Nabízíme komplexní softwarová řešení na
+klíč. Prostřednictvím našich špičkových SCADA systémů Vám můžeme usnadnit řízení
+provozu a zvýšit jeho efektivitu.
                         </div>
-                        <Link to='/melkorvisum'> <button type="button" className="btn btn-success btn-lg learnButton melkorButton ">MelkorVisum</button></Link>
+                        <Link to='/melkorvisum'> <button type="button" className="btn btn-success btn-lg learnButton melkorButton ">Více o našem řešení</button></Link>
                     </div>
                     <div className='videoContainer'>
                         <video width="100%" loop autoPlay muted playsInline className='bgVideo'>
