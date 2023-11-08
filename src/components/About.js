@@ -15,7 +15,7 @@ function About() {
 
 
                         <h1 className='aboutTitle'>
-                            O nás <FontAwesomeIcon className="trophy" icon={faAddressCard} bounce size="sm" style={{ color: "#2e3192", }} />
+                            O nás 
                         </h1>
                         <div className='aboutSubtitle'>
                             <p>
