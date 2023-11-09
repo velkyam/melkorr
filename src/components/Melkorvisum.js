@@ -3,7 +3,6 @@ import React, {useEffect} from 'react';
 import Zlin from '../components/assets/images/MR1.png'
 import Zlin2 from '../components/assets/images/spotreba.png'
 import Zlin3 from '../components/assets/images/trakcni.png'
-import Zlin4 from '../components/assets/images/MR6-mistni.png'
 import 'lightbox.js-react/dist/index.css'
 import {SlideshowLightbox, initLightboxJS} from 'lightbox.js-react'
 
@@ -34,9 +33,9 @@ function Melkorvisum() {
 
                     </div>
                     <SlideshowLightbox className='container grid grid-cols-3 gap-2 mx-auto' showThumbnails={true}>
-  <img className='w-full rounded imageExample' src={Zlin}/>
-  <img className='w-full rounded imageExample' src={Zlin3} />  
-  <img className='w-full rounded imageExample' src={Zlin2} />
+  <img className='w-full rounded imageExample' src={Zlin} alt="prop1"/>
+  <img className='w-full rounded imageExample' src={Zlin3} alt="prop2"/>  
+  <img className='w-full rounded imageExample' src={Zlin2} alt="prop3"/>
  
 </SlideshowLightbox> 
                    </div>

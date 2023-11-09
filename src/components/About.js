@@ -3,7 +3,7 @@ import Robert from '../components/assets/images/robert.jpg'
 import Premek from '../components/assets/images/premek.jpg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPaperPlane, faAddressCard } from '@fortawesome/free-solid-svg-icons'
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 function About() {
     return (
 
@@ -11,11 +11,11 @@ function About() {
 
             <div className="widthContainer heroContainer">
                 <div className='heroTextContainer'>
-                    <div className='aboutWidt'>
+              
 
 
                         <h1 className='aboutTitle'>
-                            O nás 
+                            O nás
                         </h1>
                         <div className='aboutSubtitle'>
                             <p>
@@ -29,32 +29,53 @@ function About() {
                         </div>
 
 
-                        
-              {          <h1 className='teamTitle'>
+
+                        <h1 className='teamTitle'>
                             Náš tým
                         </h1>
-}
+                        <div className='aboutSubtitle'>
+                            <p>
+                                Jsme vášnivý tým profesionálů s rozsáhlým spektrem dovedností od obchodních znalostí po technickou vynalézavost. Společně jsme vytvořili silnou a kreativní pracovní atmosféru, která nám umožňuje neustále inovovat a přinášet našim klientům nejlepší řešení. Naše oddanost kvalitnímu výkonu, společnému růstu a neustálému zlepšování nás činí jedinečnými na trhu.</p>
+
+                        </div>
+
 
                         <div className='teamContainer'>
                             <div className='teamMember'>
 
-                                <img className="profilePhoto" src={Premek} alt="Přemysl_Till" />
                                 <div className='memberText'>
-                                    <p className='memberName'>Ing. Bc. et Bc. Přemysl Till</p>
-                                    <p >jednatel, senior developer</p>
+                                    <div className='profileRow'>
+                                        <div className='image-cropper'>
+                                            <img className="profilePhoto" src={Premek} alt="Přemysl_Till" />
+                                        </div>
+                                        <div className='profileCol'>
+                                            <p className='memberName'>Ing. Bc. et Bc. Přemysl Till</p>
+                                            <p >jednatel, senior developer</p>
+                                            <a className="learnLink underline " href="mailto:ptill@melkor.czz">ptill@melkor.cz<FontAwesomeIcon className='icon' icon={faPaperPlane} style={{ color: "#2E3192", }} /></a>
+                                        </div>
+                                    </div>
                                     <p>Absolvent Fakulty informatiky Masarykovy Univerzity a Fakulty elektrotechniky a komunikačních technologií VUT, vede tým programátorů, kombinuje zkušenosti a znalosti programování a elektrotechniky.</p>
 
-                                    <a className="learnLink underline " href="mailto:ptill@melkor.czz">ptill@melkor.cz<FontAwesomeIcon className='icon' icon={faPaperPlane} style={{ color: "#2E3192", }} /></a>
                                 </div>
                             </div>
                             <div className='teamMember'>
 
-                                <img className="profilePhoto" src={Robert} alt="Robert_Kerndl" />
+
+
                                 <div className='memberText'>
-                                    <p className='memberName'>JUDr. Robert Kerndl</p>
-                                    <p>jednatel, právník</p>
+                                    <div className='profileRow'>
+                                        <div className='image-cropper'>
+                                            <img className="profilePhoto" src={Robert} alt="Robert_Kerndl" />
+                                        </div>
+                                        <div className='profileCol'>
+                                            <p className='memberName'>JUDr. Robert Kerndl</p>
+                                            <p>jednatel, právník</p>
+                                            <a className="learnLink underline" href="mailto:rkerndl@melkor.cz">rkerndl@melkor.cz<FontAwesomeIcon className='icon' icon={faPaperPlane} style={{ color: "#2E3192", }} /></a>
+                                        </div>
+                                    </div>
                                     <p>Absolvent Právnické fakulty Univerzity Karlovy, právník se specializací na obchodní akviziční právo a právo veřejných zakázek.</p>
-                                    <a className="learnLink underline" href="mailto:rkerndl@melkor.cz">rkerndl@melkor.cz<FontAwesomeIcon className='icon' icon={faPaperPlane} style={{ color: "#2E3192", }} /></a>
+
+
                                 </div>
 
                             </div>
@@ -65,7 +86,7 @@ function About() {
 
 
 
-                </div>
+               
 
             </div>
         </div>
