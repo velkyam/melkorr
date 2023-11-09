@@ -27,7 +27,7 @@ function Melkorvisum() {
                     <div className='aboutSubtitle'>
                         Jádrem naší platformy je řídicí server, který zajišťuje komunikaci s technologií, systém varování a alarmů, správu deníků a další. K tomuto serveru je následně možné připojovat desktopové, mobilní či webové vizualizační klienty. V současnosti dodáváme především moduly pro dálkové a místní řízení měníren MHD, samotný software je ale na konkrétní technologii nezávislý, lze jej proto použít pro širokou škálu průmyslových systémů.
                         Platforma podporuje všechny běžně využívané operační systémy (Windows, Linux, MacOS) s minimálními hardwarovými požadavky.
-                        Základní funkce MelkorVisa ukážeme na konkrétním uplatnění na řízení sítě měníren:
+
 
 {/* Prostřednictvím našich špičkových SCADA systémů můžeme usnadnit řízení Vašeho
                                 provozu a zvýšit jeho efektivitu. */}
@@ -42,6 +42,7 @@ function Melkorvisum() {
  
              
 </SlideshowLightbox> 
+                    
                    </div>
 
             </div>
