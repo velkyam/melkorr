@@ -29,14 +29,18 @@ function Melkorvisum() {
                         Platforma podporuje všechny běžně využívané operační systémy (Windows, Linux, MacOS) s minimálními hardwarovými požadavky.
                         Základní funkce MelkorVisa ukážeme na konkrétním uplatnění na řízení sítě měníren:
 
-
+{/* Prostřednictvím našich špičkových SCADA systémů můžeme usnadnit řízení Vašeho
+                                provozu a zvýšit jeho efektivitu. */}
 
                     </div>
-                    <SlideshowLightbox className='container grid grid-cols-3 gap-2 mx-auto' showThumbnails={true}>
+                    <SlideshowLightbox className='slideShow' modalClose="clickOutside" theme="lightbox" showThumbnails={true}>
+
+                 
   <img className='w-full rounded imageExample' src={Zlin} alt="prop1"/>
   <img className='w-full rounded imageExample' src={Zlin3} alt="prop2"/>  
   <img className='w-full rounded imageExample' src={Zlin2} alt="prop3"/>
  
+             
 </SlideshowLightbox> 
                    </div>
 
