@@ -1,6 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-/* import { faTrophy } from '@fortawesome/free-solid-svg-icons' */
+
 
 function Reference() {
     return (
@@ -13,7 +12,7 @@ function Reference() {
 
 
                     <h1 className='aboutTitle'>
-                        Naše úspěchy {/* <FontAwesomeIcon className="trophy" icon={faTrophy} bounce size="sm" style={{ color: "#ffdd00", }} /> */}
+                        Naše úspěchy
                     </h1>
                     <div className='gridContainer'>
 
