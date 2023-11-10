@@ -4,6 +4,7 @@ import Zlin from '../components/assets/images/MR1.png'
 import Zlin2 from '../components/assets/images/spotreba.png'
 import Zlin3 from '../components/assets/images/trakcni.png'
 import Zlin4 from '../components/assets/images/trakcni2.png'
+import macbook from '../components/assets/images/macbook.jpg'
 import 'lightbox.js-react/dist/index.css'
 import { SlideshowLightbox, initLightboxJS } from 'lightbox.js-react'
 
@@ -32,7 +33,7 @@ function Melkorvisum() {
 
                     </div>
 
-
+                    <img className='w-full rounded imageMac' src={macbook} alt="prop0"/>
 
 
                 </div>
@@ -82,16 +83,10 @@ function Melkorvisum() {
 
                             Naše inovativní řešení nalezne uplatnění v široké škále odvětví a oblastí, přinášejíc zásadní přínosy v mnoha ohledech. Jeho využití je možné v měnírnách a dispečinkách dopravních podniků, kde umožňuje efektivní správu a koordinaci dopravního provozu. Dále je vhodné pro energetické zdroje a rozvodnou síť, včetně fotovoltaických elektráren a transformátorových stanic. V průmyslových provozech zase naše řešení optimalizuje výrobní linky, zvyšuje efektivitu a umožňuje lepší řízení průmyslových procesů. V oblasti vytápění, klimatizace a inteligentního řízení budov přinášíme inovace, které umožňují optimalizaci spotřeby energie a zajišťují pohodlné prostředí v budovách. Dále podporujeme kontrolu spotřeby a komunikaci s elektroměry, plynoměry a dalšími měřicími zařízeními. Naše technologická řešení jsou rovněž využitelná v energetických dispečinkách a nabíjecích stanicích pro elektromobily, přičemž nabízíme komplexní a spolehlivé možnosti správy a monitoringu. To všechno je pouze začátek, naše řešení mohou být aplikována v mnoha dalších oblastech, poskytujíce tak flexibilitu a širokou škálu výhod pro různé odvětví a sektory.
                         </p>
+                        <img className='imageExampleFull fullWidth' src={Zlin2} alt="prop3" />
                         <SlideshowLightbox className='slideShow' modalClose="clickOutside" theme="lightbox">
                         <img className='w-full rounded imageExample' src={Zlin2} alt="prop3"/>  
                     </SlideshowLightbox>
-                        {/*  <SlideshowLightbox className='slideShow' modalClose="clickOutside" theme="lightbox" showThumbnails={true}>
-
-  <img className='w-full rounded imageExample' src={Zlin} alt="prop1"/>
-  <img className='w-full rounded imageExample' src={Zlin3} alt="prop2"/>  
-  <img className='w-full rounded imageExample' src={Zlin2} alt="prop3"/>  
-           
-</SlideshowLightbox>  */}
                     </div>
                 </div>
             </div>

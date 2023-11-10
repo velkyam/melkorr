@@ -9,7 +9,6 @@ import support from '../components/assets/images/support.svg'
 import scale from '../components/assets/images/scale.svg'
 import reseni from '../components/assets/images/reseni.svg'
 import spolehlivost from '../components/assets/images/spolehlivost.svg'
-
 import card1 from '../components/assets/images/software.svg'
 import card2 from '../components/assets/images/plc.svg'
 import card3 from '../components/assets/images/vzhled.svg'

@@ -260,7 +260,9 @@ p{
   max-width: 80%;
   font-size: 20px;
 }
-
+.homeMac{
+  width: 100%;
+}
 /* Grid */
 .featureGrid {
   margin: 80px auto 0px;
@@ -504,7 +506,7 @@ p{
   display: flex;
   flex-direction: column;
   max-width: 540px;
-  margin: 0px auto auto auto;
+  margin: auto auto auto auto;
 }
 
 .melkorUse{
@@ -519,13 +521,20 @@ p{
   box-shadow: 0 0px 18px 3px rgba(74, 85, 105, .12);
   margin-top: 20px;
 }
+.imageMac{
+  width: 70%;
+  margin: 0 auto 80px;
+}
 .Full2{
   width: 40%;
 }
 .leftTitle{
   text-align: left;
 }
-
+.fullWidth{
+  width:100%;
+  margin: 60px auto 120px;
+}
 
 
 /* Footer */
@@ -804,6 +813,10 @@ p{
   }
   .imageExampleFull{
     display: none;
+  }
+  .imageMac{
+    width: 90%;
+    margin: 0 auto 40px;
   }
   .melkorContainer{
     width: 90%;
