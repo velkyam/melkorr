@@ -15,7 +15,7 @@ function About() {
                         O nás
                     </h1>
                     <div className='aboutSubtitle'>
-                        <p>
+                        <p className='paraBig'>
                             Melkor Software je moderní IT firma, která Vám nabízí komplexní softwarová řešení na
                             klíč.  Naše softwarové řešení je postavené na nejnovějších technologiích a vychází z moderních
                             principů tvorby uživatelských rozhraní, díky čemuž je stabilní, bezpečné a uživatelsky

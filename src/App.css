@@ -15,7 +15,9 @@ a {
 p{
   margin: 0;
 }
-
+.paraBig{
+  font-size: 20px;
+}
 /* Navigation */
 .navbar {
   box-shadow: 0 -3px 14px 2px rgba(74, 85, 105, .12);
@@ -488,15 +490,43 @@ p{
 }
 /* Melkorvisum */
 .slideShow{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: none;
 }
 .imageExample {
-  width: 32%;
-  box-shadow: 0 0px 14px 2px rgba(74, 85, 105, .12);
-  margin: 5px;
+  display: none;
 }
+.imageRow{
+  display: flex;
+  flex-direction: row;
+  margin: 60px auto 120px;
+}
+.imageCol{
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+  margin: 0px auto auto auto;
+}
+
+.melkorUse{
+  display: flex;
+  flex-direction: column;
+  max-width: 1130px;
+  margin: 0 auto;
+}
+.imageExampleFull{
+  display: flex;
+  width: 50%;
+  box-shadow: 0 0px 18px 3px rgba(74, 85, 105, .12);
+  margin-top: 20px;
+}
+.Full2{
+  width: 40%;
+}
+.leftTitle{
+  text-align: left;
+}
+
+
 
 /* Footer */
 .footer {
@@ -760,10 +790,36 @@ p{
   }
   /* MelkorVisum */
   .imageExample{
+    display: block;
     width: 100%;
-    margin: 10px auto;
+    margin: 40px auto;
+    box-shadow: 0 0px 14px 2px rgba(74, 85, 105, .12);
   }
-
+  .imageCol{
+    max-width: none;
+  }
+  .imageRow{
+    flex-direction: column;
+    margin: 20px auto;
+  }
+  .imageExampleFull{
+    display: none;
+  }
+  .melkorContainer{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .Full2Mob{
+    display: none;
+  }
+.slideShow{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.paraBig{
+  font-size: 16px;
+}
   /* Footer */
   .footerContainer {
     flex-direction: column;
