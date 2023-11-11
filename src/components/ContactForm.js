@@ -36,8 +36,8 @@ function ContactForm() {
               </button>
             </form>
   
-            <div className='rightContainer'>
-            <div className='companyInfo'>
+            <div className='column rightContainer'>
+            <div className='column companyInfo'>
             <h2 className='formTitle'>Melkor Software, s.r.o.</h2>
           
                         <p><a className="learnLink" href="mailto:info@melkor.cz">info@melkor.cz<FontAwesomeIcon className='icon' icon={faPaperPlane} style={{ color: "#2e3192", }} /></a></p>

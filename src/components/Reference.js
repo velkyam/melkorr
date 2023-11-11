@@ -16,7 +16,7 @@ function Reference() {
                     </h1>
                     <div className='gridContainer'>
 
-                        <div className='card referenceCard'>
+                        <div className='card'>
 
 
                             <h5 className='milestoneTitle'>Energetický dispečink Dopravní společnosti Zlín a Otrokovice</h5>
@@ -30,7 +30,7 @@ function Reference() {
 
 
                         </div>
-                        <div className='card referenceCard'>
+                        <div className='card'>
                             <h5 className='milestoneTitle'>Místní řízení měnírny Heršpice a transformátorové stanice Slatina</h5>
                             <p>
                                 Pro Dopravní podnik
@@ -40,7 +40,7 @@ function Reference() {
                             </p>
 
                         </div>
-                        <div className='card referenceCard'>
+                        <div className='card'>
 
                             <h5 className='milestoneTitle'>Dálkové řízení vytápění Orlovny Brno-Obřany</h5>
                             <p>

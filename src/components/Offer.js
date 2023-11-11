@@ -1,6 +1,5 @@
-import React from 'react';
+import React  from 'react';
 import { Link } from 'react-router-dom';
-import map from '../components/assets/images/Diagram.svg'
 import sifr from '../components/assets/images/sifr.svg'
 import os from '../components/assets/images/os.svg'
 import zobrazeni from '../components/assets/images/zobrazeni.svg'
@@ -12,8 +11,7 @@ import spolehlivost from '../components/assets/images/spolehlivost.svg'
 import card1 from '../components/assets/images/software.svg'
 import card2 from '../components/assets/images/plc.svg'
 import card3 from '../components/assets/images/vzhled.svg'
-
-
+import Zlin from '../components/assets/images/display2.jpg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleRight } from '@fortawesome/free-solid-svg-icons'
@@ -27,7 +25,7 @@ function Offer() {
 
 
         <div className="sectionContainer">
-            <div className="widthContainer cardsectionContainer">
+            <div className="widthContainer column">
                 <div className='melkorvisumContainer'><h2 className='melkorvisumTitle'>MelkorVisum</h2>Našim hlavním produktem je plně přizpůsobitelná 
       a integrovaná platforma MelkorVisum, která nám umožňuje efektivně vyvíjet vysoce spolehlivé vizualizační a řídicí systémy pro průmyslové, energetické či dopravní provozy. 
                 </div>
@@ -69,19 +67,18 @@ function Offer() {
 
                     <Link to='/reference' className='learnLink'>Podívejte se, co s námi můžete dokázat <FontAwesomeIcon className='icon' icon={faCircleRight} /></Link>
                 </div>
-                <div className='rightBg'> <img className="map" src={map} alt="station_scheme" /></div>
+                <div className='rightBg'> <img className="homeMac" src={Zlin} alt="Schematicke_zobrazeni" /></div>
 
 
             </div>
-            <div className="widthContainer offerContainer">
+            <div className="widthContainer column">
             <div className='howTitle offerTitle'>Co nabízíme našim klientům</div>
             <div className='offerText'>Ať už potřebujete renovovat energetický dispečink,
       automatizovat výrobní linku či modernizovat přehled nad spotřebou energií, Melkor Software Vám poskytne spolehlivé řešení k vašim potřebám.</div>
 
 
 
-
-            <div className="featureGrid ">
+            <div className="featureGrid widthContainer">
                 <Link className="gridItem" to='/melkorvisum'>
                     <img className='gridIcon' src={reseni} alt="reseni_icon" />
                     <div className='gridText'>Řešení otestované v praxi</div>

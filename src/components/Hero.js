@@ -9,7 +9,7 @@ function Hero() {
 
         <div className='hero'>
                 <div className="widthContainer heroContainer">
-                    <div className='heroTextContainer'>
+                    <div className='column'>
 
                         <h1 className='heroTitle'>
                             <span>Moderní řešení pro

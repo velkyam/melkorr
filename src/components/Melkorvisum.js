@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 import Zlin from '../components/assets/images/MR1.png'
-import Zlin2 from '../components/assets/images/spotreba.png'
+import Zlin2 from '../components/assets/images/display_spotreba2.jpg'
 import Zlin3 from '../components/assets/images/trakcni.png'
 import Zlin4 from '../components/assets/images/trakcni2.png'
 import macbook from '../components/assets/images/macbook.jpg'
@@ -19,8 +19,8 @@ function Melkorvisum() {
 
         <div className='sectionContainer'>
 
-            <div className='melkorContainer heroContainer'>
-                <div className='widthContainer heroTextContainer'>
+            <div className='heroContainer'>
+                <div className='widthContainer column '>
 
 
                     <h1 className='aboutTitle'>
@@ -33,12 +33,12 @@ function Melkorvisum() {
 
                     </div>
 
-                    <img className='w-full rounded imageMac' src={macbook} alt="prop0"/>
+                    <img className='imageMac' src={macbook} alt="prop0"/>
 
 
                 </div>
-                <div className='imageRow'>
-                    <div className='imageCol'>
+                <div className='imageRow melkorMobileWidth'>
+                    <div className='imageCol column'>
 
 
                         <h1 className='aboutTitle '>
@@ -52,12 +52,12 @@ function Melkorvisum() {
                     </div>
                     <img className='imageExampleFull' src={Zlin} alt="prop1" />
                     <SlideshowLightbox className='slideShow' modalClose="clickOutside" theme="lightbox" >
-                        <img className='w-full rounded imageExample' src={Zlin} alt="prop1" />
+                        <img className='imageExample' src={Zlin} alt="prop1" />
                     </SlideshowLightbox>
                 </div>
-                <div className='imageRow'>
+                <div className='imageRow melkorMobileWidth'>
                     <img className='imageExampleFull Full2 Full2Mob' src={Zlin3} alt="prop2" />
-                    <div className='imageCol'>
+                    <div className='imageCol column'>
 
                         <h1 className='aboutTitle'>
                             Proč MelkorVisum?
@@ -69,25 +69,23 @@ function Melkorvisum() {
                             </p>
                         </div>
                         <SlideshowLightbox className='slideShow' modalClose="clickOutside" theme="lightbox" >
-                        <img className='w-full rounded imageExample' src={Zlin4} alt="prop2"/>  
+                        <img className='imageExample' src={Zlin4} alt="prop2"/>  
                     </SlideshowLightbox>
                     </div>
                 </div>
-                <div className='melkorUse'>
+                <div className='widthContainer column'>
 
                     <h1 className='aboutTitle'>
                         Případy použití
                     </h1>
                     <div className='imageText'>
-                        <p className='paraBig'>
+                        <p className='paraBig  aboutSubtitle'>
 
                             Naše inovativní řešení nalezne uplatnění v široké škále odvětví a oblastí, přinášejíc zásadní přínosy v mnoha ohledech. Jeho využití je možné v měnírnách a dispečinkách dopravních podniků, kde umožňuje efektivní správu a koordinaci dopravního provozu. Dále je vhodné pro energetické zdroje a rozvodnou síť, včetně fotovoltaických elektráren a transformátorových stanic. V průmyslových provozech zase naše řešení optimalizuje výrobní linky, zvyšuje efektivitu a umožňuje lepší řízení průmyslových procesů. V oblasti vytápění, klimatizace a inteligentního řízení budov přinášíme inovace, které umožňují optimalizaci spotřeby energie a zajišťují pohodlné prostředí v budovách. Dále podporujeme kontrolu spotřeby a komunikaci s elektroměry, plynoměry a dalšími měřicími zařízeními. Naše technologická řešení jsou rovněž využitelná v energetických dispečinkách a nabíjecích stanicích pro elektromobily, přičemž nabízíme komplexní a spolehlivé možnosti správy a monitoringu. To všechno je pouze začátek, naše řešení mohou být aplikována v mnoha dalších oblastech, poskytujíce tak flexibilitu a širokou škálu výhod pro různé odvětví a sektory.
                         </p>
-                        <img className='imageExampleFull fullWidth' src={Zlin2} alt="prop3" />
-                        <SlideshowLightbox className='slideShow' modalClose="clickOutside" theme="lightbox">
-                        <img className='w-full rounded imageExample' src={Zlin2} alt="prop3"/>  
-                    </SlideshowLightbox>
+    
                     </div>
+                        <img className='imageMac' src={Zlin2} alt="control_panel_display" />
                 </div>
             </div>
         </div>

@@ -34,7 +34,7 @@ function About() {
                                     <div className='image-cropper'>
                                         <img className="profilePhoto" src={Premek} alt="Přemysl_Till" />
                                     </div>
-                                    <div className='profileCol'>
+                                    <div className='column profileCol'>
                                         <p className='memberName'>Ing. Bc. et Bc. Přemysl Till</p>
                                         <p >jednatel, senior developer</p>
                                         <a className="learnLink underline " href="mailto:ptill@melkor.czz">ptill@melkor.cz<FontAwesomeIcon className='icon' icon={faPaperPlane} style={{ color: "#2E3192", }} /></a>
@@ -49,7 +49,7 @@ function About() {
                                     <div className='image-cropper'>
                                         <img className="profilePhoto" src={Robert} alt="Robert_Kerndl" />
                                     </div>
-                                    <div className='profileCol'>
+                                    <div className='column profileCol'>
                                         <p className='memberName'>JUDr. Robert Kerndl</p>
                                         <p>jednatel, právník</p>
                                         <a className="learnLink underline" href="mailto:rkerndl@melkor.cz">rkerndl@melkor.cz<FontAwesomeIcon className='icon' icon={faPaperPlane} style={{ color: "#2E3192", }} /></a>
