@@ -31,7 +31,7 @@ provozu a zvýšit jeho efektivitu.
                         <Link to='/melkorvisum'> <button type="button" className="btn btn-success btn-lg learnButton melkorButton ">Více o našem řešení</button></Link>
                     </div>
                     <div className='videoContainer'>
-                        <video width="100%" loop autoPlay muted playsInline className='bgVideo'>
+                        <video loop autoPlay muted playsInline className='bgVideo'>
                             <source src={video2} type="video/webm" />
                             <source src={video} type="video/mp4" />
                             <p>Your browser doesn't support HTML video. Here is a</p>
