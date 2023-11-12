@@ -27,7 +27,7 @@ function About() {
                         Náš tým
                     </h1>
                     <div className='teamContainer'>
-                        <div className='teamMember'>
+                        <div className='teamMember '>
 
                             <div className='memberText'>
                                 <div className='profileRow'>

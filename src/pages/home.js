@@ -4,6 +4,7 @@ import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Offer from '../components/Offer';
+import Offer2 from '../components/Offer2';
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
         <Nav/>
         <Hero/>
         <Offer/>
+        <Offer2/>
         <Footer/>
       </div>
     );
