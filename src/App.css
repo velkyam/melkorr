@@ -257,55 +257,27 @@ flex-direction: row;
   width: 100%;
 }
 /* Grid */
+.featureSection{
+  padding-bottom: 100px;
+}
 .featureGrid {
   margin: 80px auto 0px;
-  justify-content: center;
+  justify-content: space-between;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 0px 0px 160px;
+}
+.nabidkaCard{
+  width: 30%;
 }
 
-.gridItem {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: white;
-  color: black;
-  text-decoration: none;
-  border: 1px solid #e7ebf3;
-  padding: 30px;
-  margin: 5px;
-  width: 24%;
-  background:
-    linear-gradient(to right,
-      rgb(255, 255, 255),
-      rgba(255, 255, 255)),
-    linear-gradient(to right,
-      rgb(235, 235, 255),
-      rgb(46, 49, 146));
-  background-size: 100% 3px, 0 3px;
-  background-position: 100% 100%, 0 0;
-  background-repeat: no-repeat;
-  transition: background-size 600ms;
 
-}
-
-.gridItem:hover {
-
-  background-size: 0 3px, 100% 3px;
-  border: none;
-  box-shadow: 2px 2px 10px #e7ebf3;
-}
 
 .gridIcon {
-  height: 40px;
-  margin-right: 10px;
+width: 24%;
+margin: 0px auto 20px 0px
 }
 
-.gridText {
-  max-width: 70%;
-}
 
 /* Contact Page */
 .contactContainer {
@@ -657,24 +629,16 @@ flex-direction: row;
 
   .featureGrid {
     flex-direction: row;
-    margin: 80px auto 0px;
+    margin: 0px auto 0px;
   }
-
-  .gridItem {
+  .nabidkaCard{
     width: 100%;
-    margin: 0 auto;
-    justify-content: flex-start;
-    border-bottom: none;
+    margin: 0px auto 60px;
   }
-
-  .gridItem:last-child {
-    border: 1px solid #e7ebf3;
-  }
-
-  .gridIcon {
-    margin-right: 50px;
-    width: 40px;
-  }
+.gridIcon{
+  width: 30%;
+  margin-bottom: 20px;
+}
 
   /* Contact Form */
   .contactContainer {

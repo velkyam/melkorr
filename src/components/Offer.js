@@ -1,13 +1,11 @@
-import React  from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import sifr from '../components/assets/images/sifr.svg'
-import os from '../components/assets/images/os.svg'
-import zobrazeni from '../components/assets/images/zobrazeni.svg'
-import protokol from '../components/assets/images/protokol.svg'
-import support from '../components/assets/images/support.svg'
-import scale from '../components/assets/images/scale.svg'
-import reseni from '../components/assets/images/reseni.svg'
-import spolehlivost from '../components/assets/images/spolehlivost.svg'
+import os from '../components/assets/images/tech.svg'
+import protokol from '../components/assets/images/performance.svg'
+import support from '../components/assets/images/custsupport.svg'
+import scale from '../components/assets/images/license.svg'
+import reseni from '../components/assets/images/secure.svg'
+import spolehlivost from '../components/assets/images/testovani.svg'
 import card1 from '../components/assets/images/software.svg'
 import card2 from '../components/assets/images/plc.svg'
 import card3 from '../components/assets/images/vzhled.svg'
@@ -26,8 +24,8 @@ function Offer() {
 
         <div className="sectionContainer">
             <div className="widthContainer column">
-                <div className='melkorvisumContainer'><h2 className='melkorvisumTitle'>MelkorVisum</h2>Našim hlavním produktem je plně přizpůsobitelná 
-      a integrovaná platforma MelkorVisum, která nám umožňuje efektivně vyvíjet vysoce spolehlivé vizualizační a řídicí systémy pro průmyslové, energetické či dopravní provozy. 
+                <div className='melkorvisumContainer'><h2 className='melkorvisumTitle'>MelkorVisum</h2>Našim hlavním produktem je plně přizpůsobitelná
+                    a integrovaná platforma MelkorVisum, která nám umožňuje efektivně vyvíjet vysoce spolehlivé vizualizační a řídicí systémy pro průmyslové, energetické či dopravní provozy.
                 </div>
                 <div className='gridContainer'>
 
@@ -62,7 +60,8 @@ function Offer() {
                     <div className='howTitle'>Jedna platforma,<br /> tisíce možností.
                     </div>
                     <div className='howText'>
-                        Od řídicích a vizualizačních aplikací po sofistikované algoritmy, MelkorVisum poskytuje našim průmyslovým a energetickým partnerům maximální flexibilitu a kontrolu.
+                        Ať už potřebujete renovovat energetický dispečink,
+                        automatizovat výrobní linku či modernizovat přehled nad spotřebou energií, Melkor Software Vám poskytne spolehlivé řešení s maximální flexibilitou a kontrolou.
                     </div>
 
                     <Link to='/reference' className='learnLink'>Podívejte se, co s námi můžete dokázat <FontAwesomeIcon className='icon' icon={faCircleRight} /></Link>
@@ -71,48 +70,50 @@ function Offer() {
 
 
             </div>
-            <div className="widthContainer column">
-            <div className='howTitle offerTitle'>Co nabízíme našim klientům</div>
-            <div className='offerText'>Ať už potřebujete renovovat energetický dispečink,
-      automatizovat výrobní linku či modernizovat přehled nad spotřebou energií, Melkor Software Vám poskytne spolehlivé řešení k vašim potřebám.</div>
+            <div className="widthContainer column featureSection">
+                <div className='howTitle offerTitle'>Co nabízíme našim klientům</div>
 
+                <div className='featureGrid'>
+                    <div className='column nabidkaCard'>
+        
 
-
-            <div className="featureGrid widthContainer">
-                <Link className="gridItem" to='/melkorvisum'>
-                    <img className='gridIcon' src={reseni} alt="reseni_icon" />
-                    <div className='gridText'>Řešení otestované v praxi</div>
-                </Link>
-                <Link className="gridItem" to='/melkorvisum'>
+                        <img className='gridIcon' src={reseni} alt="reseni_icon" />
+                        <h5 className='milestoneTitle'>
+                            Vysokou spolehlivost s důrazem na bezpečnost
+                        </h5>
+          
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi blandit cursus risus at. Tortor condimentum lacinia quis vel eros donec ac. </p>
+                    </div>
+                    <div className='column nabidkaCard'>
+                        <img className='gridIcon' src={protokol} alt="nolicense_icon" />
+                        <h5 className='milestoneTitle'>Nezávislost na dokupování licencí od třetích stran</h5>
+                        <p>Convallis tellus id interdum velit laoreet id donec. Vel pharetra vel turpis nunc eget lorem dolor sed. In cursus turpis massa tincidunt dui ut ornare lectus. Venenatis urna cursus eget nunc. Massa tincidunt dui ut ornare.</p>
+                    </div>
+                    <div className='column nabidkaCard'>
                     <img className='gridIcon' src={scale} alt="scale_icon" />
-                    <div className='gridText'>Škálovatelná architektura</div>
-                </Link>
-                <Link className="gridItem" to='/melkorvisum'>
+                        <h5 className='milestoneTitle'>Vysoce škálovatelnou architekturu
+                        </h5>
+                        <p>Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Etiam sit amet nisl purus in mollis nunc sed id. Nisl nunc mi ipsum faucibus vitae. Eu consequat ac felis donec. Nisi porta lorem mollis aliquam ut porttitor. Bibendum at varius vel pharetra.</p>
+                    </div>
+                </div>
+                <div className='featureGrid'>
+                    <div className='column nabidkaCard'>
+                    <img className='gridIcon' src={spolehlivost} alt="test_icon" />
+                        <h5 className='milestoneTitle'>
+                            Řešení otestované v praxi</h5>
+                        <p>Auctor neque vitae tempus quam pellentesque. Cras ornare arcu dui vivamus arcu. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Arcu bibendum at varius vel pharetra vel turpis.</p>
+                    </div>
+                    <div className='column nabidkaCard'>
+                    <img className='gridIcon' src={os} alt="stavajici_technologie_icon" />
+                        <h5 className='milestoneTitle'>Širokou podporu pro stávající technologie</h5>
+                        <p>Ullamcorper a lacus vestibulum sed arcu non odio euismod. Id cursus metus aliquam eleifend mi. Ante metus dictum at tempor commodo ullamcorper a lacus. Lobortis mattis aliquam faucibus purus in massa. Consectetur adipiscing elit duis tristique.</p>
+                    </div>
+                    <div className='column nabidkaCard'>
                     <img className='gridIcon' src={support} alt="support_icon" />
-                    <div className='gridText'>Uživatelská podpora 24/7</div>
-                </Link>
-                <Link className="gridItem" to='/melkorvisum'>
-                    <img className='gridIcon' src={spolehlivost} alt="spolehlivost_icon" />
-                    <div className='gridText'>Vysoká spolehlivost</div>
-                </Link>
-                <Link className="gridItem" to='/melkorvisum'>
-                    <img className='gridIcon' src={os} alt="OS_icon" />
-                    <div className='gridText'>Nezávislost na OS/HW</div>
-                </Link>
-                <Link className="gridItem" to='/melkorvisum'>
-                    <img className='gridIcon' src={sifr} alt="security_icon" />
-                    <div className='gridText'>Šifrovaná komunikace</div>
-                </Link>
-                <Link className="gridItem" to='/melkorvisum'>
-                    <img className='gridIcon' src={zobrazeni} alt="zobrazeni_icon" />
-                    <div className='gridText'>Přehledné zobrazení</div>
-                </Link>
-                <Link className="gridItem" to='/melkorvisum'>
-                    <img className='gridIcon' src={protokol} alt="protocol_icon" />
-                    <div className='gridText'>Podpora protokolů</div>
-                </Link>
-
-            </div>
+                        <h5 className='milestoneTitle'>Uživatelskou podporu 24/7</h5>
+                        <p>Quam viverra orci sagittis eu volutpat odio facilisis. Eget gravida cum sociis natoque penatibus et magnis dis parturient. Magnis dis parturient montes nascetur ridiculus mus mauris. Dignissim convallis aenean et tortor at risus viverra adipiscing at.</p>
+                    </div>
+                </div>
             </div>
 
 
