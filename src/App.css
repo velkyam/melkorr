@@ -232,7 +232,6 @@ flex-direction: row;
 
 .howTitle {
   text-align: left;
-  margin-bottom: 50px;
   font-size: 40px;
   font-weight: 500;
   line-height: 60px;
@@ -620,6 +619,7 @@ margin: 0px auto 20px 0px
 
   .howTitle {
     text-align: left;
+    margin-bottom: 40px;
   }
 
   .offerText {
