@@ -1,10 +1,10 @@
 import React from 'react';
-import os from '../components/assets/images/techmono.svg'
-import protokol from '../components/assets/images/performancemono.svg'
-import support from '../components/assets/images/supportmono.svg'
-import scale from '../components/assets/images/scalemono.svg'
-import reseni from '../components/assets/images/securemon.svg'
-import spolehlivost from '../components/assets/images/testovanimono.svg'
+import os from '../components/assets/images/scale7.svg'
+import protokol from '../components/assets/images/performance7.svg'
+import support from '../components/assets/images/support7.svg'
+import scale from '../components/assets/images/licence7.svg'
+import reseni from '../components/assets/images/secure7.svg'
+import spolehlivost from '../components/assets/images/test7.svg'
 
 
 
