@@ -6,7 +6,10 @@ function Footer() {
 
 
     return (
-        <div className='footer '>
+  
+
+
+        <div className='footer offerBg'>
             <div className='footerColumn widthContainer'>
                 <div className='footerContainer'>
                     <div className='infoContainer'>
@@ -45,6 +48,7 @@ function Footer() {
                 </div>
                 <div className='copyright'>Copyright © 2023 Melkor Software. Všechna práva vyhrazena.</div>
             </div>
+      
         </div>
     );
 }

@@ -63,7 +63,8 @@ function Offer() {
                 <div className='rightBg'> <img className="homeMac" src={Zlin} alt="Schematicke_zobrazeni" /></div>
 
 
-            </div> 
+                    </div> 
+
 
         </div>
 

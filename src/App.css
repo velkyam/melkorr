@@ -126,7 +126,7 @@ p {
 .videoContainer {
   right: -8vw;
   position: relative;
-  box-shadow: 4px 4px 15px gray;
+/*   box-shadow: 4px 4px 15px gray; */
   overflow: hidden;
 }
 
@@ -135,25 +135,31 @@ p {
   height: 100%;
   object-fit: cover;
 }
+.container2{
+  overflow: hidden;
+}
 
 .sectionContainer {
   position: relative;
   z-index: 6;
   box-shadow: 1px 1px 16px rgba(0, 0, 0, .05), 1px 1px 15px rgba(0, 0, 0, .05);
   min-height: 100vh;
+  background-color: white;
 }
-
-.container2 {
-  overflow: hidden;
-}
-
 .sectionContainer2 {
   position: relative;
-  z-index: 5;
-  box-shadow: 1px 1px 16px rgba(0, 0, 0, .05), 1px 1px 16px rgba(0, 0, 0, .05);
-  min-height: 100vh;
-  margin: 0 auto 20px;
+  z-index: 4;
+  box-shadow: 1px 1px 16px rgba(0, 0, 0, .05), 1px 1px 15px rgba(0, 0, 0, .05);
+  
 }
+.sectionContainer3 {
+  position: relative;
+  z-index: 3;
+  box-shadow: 1px 1px 16px rgba(0, 0, 0, .05), 1px 1px 15px rgba(0, 0, 0, .05);
+  
+}
+
+
 
 .melkorvisumTitle {
   display: flex;
@@ -385,7 +391,6 @@ p {
 
 .aboutSubtitle {
   margin: 0 auto 80px;
-  /*  font-size: 20px; */
 }
 
 .teamContainer {
@@ -507,7 +512,21 @@ p {
   width: 100%;
   margin: 60px auto 120px;
 }
+.getstartedContainer {
+  margin: 160px auto;
+  font-size: 20px;
+  text-align: center;
+  max-width: 70%;
+}
+.getstartedTitle{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
 
+.getstartedP{
+  margin: 0 auto 40px;
+}
 
 
 /* Footer */
@@ -636,6 +655,15 @@ p {
     max-width: 100%;
   }
 
+  .getstartedContainer {
+    margin: 100px auto 160px;
+    text-align: left;
+    max-width: 100%;
+  }
+  .getstartedTitle{
+    text-align: left;
+  }
+
   .cardIcon {
     max-width: 180px;
   }
@@ -673,7 +701,7 @@ p {
   }
 
   .featureSection {
-    padding-bottom: 100px;
+    padding-bottom: 40px;
   }
 
   .featureGrid {

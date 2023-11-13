@@ -7,6 +7,8 @@ import Zlin4 from '../components/assets/images/trakcni2.png'
 import macbook from '../components/assets/images/macbook.jpg'
 import 'lightbox.js-react/dist/index.css'
 import { SlideshowLightbox, initLightboxJS } from 'lightbox.js-react'
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -86,6 +88,12 @@ function Melkorvisum() {
     
                     </div>
                         <img className='imageMac' src={Zlin2} alt="control_panel_display" />
+                        <div className='getstartedContainer'>
+
+<div className='getstartedTitle'>Zaujala Vás naše nabídka?</div>
+<p className='getstartedP'>Poskytněte nám pár rychlých údajů, a náš tým se s Vámi co nejdříve spojí.</p>
+<Link className='nodecor mx-auto' to='/kontakt'><button type="button" className="btn btn-success btn-lg learnButton purpleBg fullbutton" >Kontaktujte nás</button></Link>
+</div>
                 </div>
             </div>
         </div>

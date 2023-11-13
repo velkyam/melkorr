@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Offer from '../components/Offer';
 import Offer2 from '../components/Offer2';
+import Getstarted from '../components/Getstarted';
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
         <Hero/>
         <Offer/>
         <Offer2/>
+        <Getstarted/>
         <Footer/>
       </div>
     );

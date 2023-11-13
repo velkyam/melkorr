@@ -13,7 +13,7 @@ function Offer2() {
     return (
 
 
-        <div className="container2 ">
+        
         <div className="sectionContainer2 offerBg">
         
 
@@ -67,10 +67,8 @@ function Offer2() {
             </div>
 
 
-
         </div>
-        </div>
-
+       
 
 
 
