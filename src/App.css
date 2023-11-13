@@ -513,7 +513,7 @@ p {
   margin: 60px auto 120px;
 }
 .getstartedContainer {
-  margin: 160px auto;
+  margin: 160px auto 240px;
   font-size: 20px;
   text-align: center;
   max-width: 70%;
@@ -657,11 +657,11 @@ p {
 
   .getstartedContainer {
     margin: 100px auto 160px;
-    text-align: left;
+    text-align: center;
     max-width: 100%;
   }
   .getstartedTitle{
-    text-align: left;
+    text-align: center;
   }
 
   .cardIcon {
